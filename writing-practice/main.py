@@ -179,10 +179,10 @@ if st.session_state.review_visible:
         st.image(st.session_state.image_display, caption="Submitted Drawing", use_column_width=True)
     if st.session_state.ajami_image:
         st.image(st.session_state.ajami_image, caption="Correct Ajami Script", use_column_width=True)
-    if st.button("Next Question"):
-        yoruba_word, english_word = generate_question()
-        st.session_state.current_word = current_word
-        if yoruba_word:
-            st.write(f"Yoruba Word: {yoruba_word}")
-            st.write(f"English Translation: {english_word}")
-            st.session_state.ajami_image = None
+    # if st.button("Next Question"):
+    #     yoruba_word, english_word = generate_question()
+    #     st.session_state.current_word = current_word
+    #     if yoruba_word:
+    #         st.write(f"Yoruba Word: {yoruba_word}")
+    #         st.write(f"English Translation: {english_word}")
+    #         st.session_state.ajami_image = None
