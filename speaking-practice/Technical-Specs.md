@@ -45,7 +45,7 @@ Format of the JSON response from the API is as follows:
 
 ## Page States
 
-Page states describes the state the single page application should behaviour from a user's perspective. 
+Page states describes the state the single page application should behave from a user's perspective. 
 
 ### Setup State
 When a user first's start up the app.
