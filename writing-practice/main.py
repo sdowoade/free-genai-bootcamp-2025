@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import random
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 import io
 import base64
 import google.generativeai as genai
@@ -16,6 +16,13 @@ genai.configure(api_key=os.getenv("GOOGLE_GEN_KEY"))
 
 # Load the Gemini Pro Vision model
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
+
+
+# Load font (replace 'path/to/your/font.ttf' with the actual path)
+try:
+    font = ImageFont.truetype("arial.ttf", 36)  # Use a default font if needed
+except OSError:
+    font = ImageFont.load_default()
 
 def grade_yoruba_ajami_script(image_data, target_word):
     """
@@ -117,6 +124,13 @@ def submit_review(uploaded_file): # changed input
     else:
         st.warning("Please draw the word and upload it before submitting.")
 
+def generate_ajami_image(text):
+    """Generates an image of the given text in Ajami script."""
+    image = Image.new("RGB", (300, 100), "white")
+    draw = ImageDraw.Draw(image)
+    draw.text((10, 30), text, fill="black", font=font)
+    return image
+
 # Initialization
 if 'words_data' not in st.session_state:
     st.session_state.words_data = fetch_words()
@@ -132,8 +146,8 @@ if 'feedback' not in st.session_state:
     st.session_state.feedback = ""
 if 'image_display' not in st.session_state:
     st.session_state.image_display = None
-if 'drawing_data' not in st.session_state:
-    st.session_state.drawing_data = None
+if 'ajami_image' not in st.session_state:
+    st.session_state.ajami_image = None
 
 words_data = st.session_state.words_data
 current_word = st.session_state.current_word
@@ -150,9 +164,11 @@ if st.button("Generate Word"):
 
 if st.session_state.practice_visible:
     st.write("Write the word in Yoruba Ajami script and upload it:")
-    uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"]) # changed line
+    uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
     if st.button("Submit for Review"):
-        submit_review(uploaded_file) # changed input
+        submit_review(uploaded_file)
+        if st.session_state.review_visible:
+            st.session_state.ajami_image = generate_ajami_image(st.session_state.current_word['yoruba'])
 
 if st.session_state.review_visible:
     st.write(f"Yoruba Word: {current_word['yoruba']}")
@@ -161,9 +177,12 @@ if st.session_state.review_visible:
     st.write(f"Feedback: {st.session_state.feedback}")
     if st.session_state.image_display:
         st.image(st.session_state.image_display, caption="Submitted Drawing", use_column_width=True)
+    if st.session_state.ajami_image:
+        st.image(st.session_state.ajami_image, caption="Correct Ajami Script", use_column_width=True)
     if st.button("Next Question"):
         yoruba_word, english_word = generate_question()
         st.session_state.current_word = current_word
         if yoruba_word:
             st.write(f"Yoruba Word: {yoruba_word}")
             st.write(f"English Translation: {english_word}")
+            st.session_state.ajami_image = None
