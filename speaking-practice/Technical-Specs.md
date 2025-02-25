@@ -60,10 +60,10 @@ They will see a button called "Submit for Review"
 When they press the Submit for Review Button the input of the user audio will be passed to a model (Please select an appropriate model) that checks if the word was spoken correctly and then transition to the Review State
 
 ### Review State
- When a user in is the review review state,
+ When a user in is the review state,
  The user will still see the yoruba word and the english translation.
  The user will now see a review of the output from the Grading System:
-- Grading
+ - Grading
   - a letter score using the S Rank to score
   - a description of whether the attempt at saying the word was accurate.
 There will be a button called "Next Question" when clicked
