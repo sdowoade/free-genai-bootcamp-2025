@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+langchain
+langgraph
+google-generativeai
+duckduckgo-search
+pydantic
+instructor
+beautifulsoup4
+playwright
+langchain_google_genai
+langchain-community
+python-dotenv
+gradio
+asyncio
+html2text
