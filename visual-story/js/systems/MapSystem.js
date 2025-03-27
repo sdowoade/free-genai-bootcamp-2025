@@ -7,7 +7,7 @@ class MapSystem {
                 // Episode 1 Locations
                 'obatalas-garden': {
                     name: 'Ọbàtálá\'s Garden of Creation',
-                    image: 'Ọbàtálá\'s Garden of Creation',
+                    image: 'Obatalas Garden of Creation',
                     unlocked: true,
                     episode: 1,
                     position: { x: CONFIG.GAME_WIDTH * 0.2, y: CONFIG.GAME_HEIGHT * 0.3 },
@@ -50,13 +50,13 @@ class MapSystem {
             },
             physical: {
                 // Episode 1 Locations
-                'village-center': {
-                    name: 'Village Center',
-                    image: 'Village Center',
-                    unlocked: true,
+                'adewales-palace': {
+                    name: 'Adewale\'s Palace',
+                    image: 'Adewale\'s Palace',
+                    unlocked: false,
                     episode: 1,
                     position: { x: CONFIG.GAME_WIDTH * 0.2, y: CONFIG.GAME_HEIGHT * 0.7 },
-                    description: 'The heart of the village where community gathers'
+                    description: 'The palace of the king of the village'
                 },
                 'elder-hut': {
                     name: 'Elder\'s Hut',

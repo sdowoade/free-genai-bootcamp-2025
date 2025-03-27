@@ -20,7 +20,7 @@ class DialogueSystem {
         ]);
     }
 
-    showDialogue(dialogue, options = [], callback = null) {
+    showDialogue(dialogue, translation = '', options = [], callback = null) {
         this.clearDialogue();
         this.onDialogueComplete = callback;
 
