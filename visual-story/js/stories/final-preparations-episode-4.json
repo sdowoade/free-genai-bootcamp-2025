@@ -1,0 +1,123 @@
+{
+    "id": "final_alliance_preparation",
+    "location": "Village Square",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi returns to the village, carrying Ṣàngó’s Axe and wearing Yemoja’s Wisdom Crown. The sacred artifacts pulse with energy, a sign of the Orisha’s favor. The villagers gather as Ifá Priestess Morẹ́mi steps forward, her eyes clouded with prophecy.",
+            "scene_description": "A sacred fire burns at the village center, casting flickering shadows as the people await the final word of fate.",
+            "scene_image": "village_gathering.png",
+            "scene_audio": "village_murmurs.mp3",
+            "options": [
+                {
+                    "text": "Mo dúró kí Morẹ́mi sọ àsọtẹ́lẹ̀ rẹ.",
+                    "translation": "I wait for Morẹ́mi to speak her prophecy.",
+                    "next": "02",
+                    "score": 10
+                },
+                {
+                    "text": "Mo sọ fún àwọn ará ìlú pé àwọn Ọ̀rìṣà wà pẹ̀lú wa!",
+                    "translation": "I declare to the villagers that the Orisha stand with us!",
+                    "next": "03",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Sometimes, the people must hear truth before they can act."
+        },
+        "02": {
+            "speaker": "Morẹ́mi",
+            "text": "Ọmọtẹmi, ojú ọ̀run ti ṣí. Àwọn Ọ̀rìṣà ti fi ọ̀nà hàn ẹ. Ṣàngó fi ìbàdọ̀ rẹ fun ọ̀, Yemoja fi ọgbọ́n rẹ sí ọ̀bẹ rẹ.",
+            "translation": "Ọmọtẹmi, the heavens have opened. The Orisha have shown you the way. Ṣàngó has given you his axe, and Yemoja has placed her wisdom upon you.",
+            "scene_description": "Morẹ́mi raises her hands, and a vision shimmers in the flames—Ṣàngó’s thunder splitting the sky, Yemoja’s waters flowing calmly beneath it.",
+            "scene_image": "moremi_prophecy.png",
+            "scene_audio": "prophetic_vision.mp3",
+            "options": [
+                {
+                    "text": "Tani aláìlòótọ́ yìí?",
+                    "translation": "Who is this traitor?",
+                    "next": "04",
+                    "score": 10
+                },
+                {
+                    "text": "Ṣé a lè ṣàkóso ayé wa pẹ̀lú ọgbọ́n àti agbára?",
+                    "translation": "Can we shape our fate with wisdom and strength?",
+                    "next": "05",
+                    "score": 8
+                }
+            ],
+            "life_spirit_hint": "The enemy is revealed through the fire’s truth."
+        },
+        "03": {
+            "speaker": "Ọya",
+            "text": "Ọmọtẹmi, mo gbọ́ ọ! Ṣùgbọ́n ọrọ̀ yàtọ̀ sí iṣẹ́. Ṣé o lè mú gbogbo àwọn ènìyàn yìí jọ?",
+            "translation": "Ọmọtẹmi, I hear you! But words are not the same as action. Can you truly unite all these people?",
+            "scene_description": "Ọya’s eyes burn with passion, challenging Ọmọtẹmi’s leadership.",
+            "scene_image": "oya_determined.png",
+            "scene_audio": "oya_challenge.mp3",
+            "options": [
+                {
+                    "text": "Mo fi ọkàn mi sí i, a ó jọ se!",
+                    "translation": "I swear upon my soul, we will stand together!",
+                    "next": "06",
+                    "score": 10
+                },
+                {
+                    "text": "Ṣé òun ni o fẹ gbìyànjú láti pín ará ìlú?",
+                    "translation": "Are you the one trying to divide the village?",
+                    "next": "07",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Strength alone does not unite people. Resolve does."
+        },
+        "04": {
+            "speaker": "Morẹ́mi",
+            "text": "Olùdàbòbò Ifá kan tí ó ti yà sí òdà. Ó fẹ́ ṣàkóso ayé pẹ̀lú ohun tó kọ̀ láti Ifá, kíkó ayé di ìyípadà.",
+            "translation": "A guardian of Ifá has turned away. He seeks to control destiny itself, twisting the world into his own design.",
+            "scene_description": "The fire flares, showing the face of a rogue Ifá priest, his hands wreathed in forbidden energy.",
+            "scene_image": "rogue_priest.png",
+            "scene_audio": "ominous_reveal.mp3",
+            "options": [
+                {
+                    "text": "Ẹ jẹ́ kí n wá ẹni yìí!",
+                    "translation": "Let me confront this priest!",
+                    "next": "08",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Not all who seek knowledge do so for wisdom."
+        },
+        "05": {
+            "speaker": "Morẹ́mi",
+            "text": "Àwọn Ọ̀rìṣà yóò fi ọ̀nà hàn wa, ṣùgbọ́n a gbọ́dọ̀ yan ọ̀nà náà pẹ̀lú ìmọ̀lè ní ọkàn wa.",
+            "translation": "The Orisha will show us the way, but we must choose it with light in our hearts.",
+            "scene_description": "The fire dims, and silence falls as the weight of destiny settles upon the village.",
+            "scene_image": "flame_fades.png",
+            "scene_audio": "soft_wind.mp3",
+            "options": [
+                {
+                    "text": "A ó ṣe títọ́, a ó gbìyànjú.",
+                    "translation": "We will do what is right, and we will fight.",
+                    "next": "06",
+                    "score": 10
+                }
+            ]
+        },
+        "06": {
+            "speaker": "Narrator",
+            "text": "The village erupts in cheers, their spirits lifted by Ọmọtẹmi’s resolve. Ṣàngó’s Axe hums with power in her grip, and Yemoja’s Wisdom Crown gleams under the fire’s light. The time has come to face the rogue Ifá priest.",
+            "scene_description": "A path opens toward the priest’s hidden temple, shrouded in storm clouds and mystery.",
+            "scene_image": "path_to_priest.png",
+            "scene_audio": "marching_drums.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan. Ẹ jé ká lọ!",
+                    "translation": "I am ready. Let us go!",
+                    "next": "confront_priest",
+                    "score": 15
+                }
+            ]
+        }
+    }
+}

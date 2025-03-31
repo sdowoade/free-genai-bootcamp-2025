@@ -1,0 +1,415 @@
+{
+    "id": "meeting-esu",
+    "location": "Crossroads of Fate",
+    "start": "30",
+    "dialog": {
+        "30": {
+            "speaker": "Narrator",
+            "text": "Following Ogun’s guidance, Ọmọtẹmi arrives at a lonely crossroads where the air hums with unseen energy. A figure waits in the shadows, eyes gleaming with mischief—Èṣù, the Orisha of trickery.",
+            "scene_description": "The path splits into countless twisting roads, each vanishing into the mist. At the center, Èṣù leans casually on his staff, a knowing smile on his lips.",
+            "scene_image": "crossroads_mist.png",
+            "scene_audio": "whispering_winds.mp3",
+            "options": [
+                {
+                    "text": "Mo ti dé, Èṣù. Ṣé o ní ohun tí mo n wa?",
+                    "translation": "I have arrived, Èṣù. Do you have what I seek?",
+                    "next": "31",
+                    "score": 10
+                }
+            ]
+        },
+        "31": {
+            "speaker": "Èṣù",
+            "text": "Ah, Ọmọtẹmi! Ìbùkún àti ìyànjú̀ yóò tó èyí tó bá mọ bí a ṣe ń yan. Ṣùgbọ́n ṣé ìwọ yóò fi ọgbọ́n yàn òtítọ́, tàbí ìwọ yóò ṣubú sínú ètàn?",
+            "translation": "Ah, Ọmọtẹmi! Blessings and trials come to those who choose. But will you choose truth with wisdom, or fall into deception?",
+            "scene_description": "Èṣù tilts his head, his eyes dancing with hidden meaning. The air crackles with unseen forces.",
+            "scene_image": "esu_trickster.png",
+            "scene_audio": "mysterious_laugh.mp3",
+            "options": [
+                {
+                    "text": "Kini ìdánwò rẹ̀, Èṣù?",
+                    "translation": "What is your trial, Èṣù?",
+                    "next": "32",
+                    "score": 10
+                }
+            ]
+        },
+        "32": {
+            "speaker": "Èṣù",
+            "text": "Mo ní ere kan fún ọ. Àwọ́n ọ̀nà mẹ́rin ni o wà níwaju rẹ, ṣùgbọ́n kan ṣoṣo ni yóò mú ọ lọ sí òtítọ́. Ṣé ìwọ yóò fi ọgbọ́n yan?",
+            "translation": "I have a game for you. Four paths lie before you, but only one leads to truth. Will you choose wisely?",
+            "scene_description": "Èṣù gestures to the shifting roads, each one twisting and turning unpredictably.",
+            "scene_image": "crossroads_four_paths.png",
+            "scene_audio": "ominous_riddle.mp3",
+            "options": [
+                {
+                    "text": "Ṣààyè fún mi láti kà wò.",
+                    "translation": "Give me time to consider.",
+                    "next": "33",
+                    "score": 10
+                }
+            ]
+        },
+                "33": {
+            "speaker": "Narrator",
+            "text": "Èṣù waves his hand, and four winding paths appear before Ọmọtẹmi. Each is guarded by a spirit, but only one path leads to the truth.",
+            "scene_description": "The air shimmers as four mysterious guardians step forward, each prepared to give a statement. Èṣù grins, watching closely.",
+            "scene_image": "crossroads_guardians.png",
+            "scene_audio": "shifting_paths.mp3",
+            "options": [
+                {
+                    "text": "Gbọ̀ ohun tí àwọn àbòjútó náà ń sọ.",
+                    "translation": "Listen to what the guardians are saying.",
+                    "next": "34",
+                    "score": 10
+                }
+            ]
+        },
+        "34": {
+            "speaker": "Narrator",
+            "text": "Each guardian speaks, but Èṣù has warned that some lie while others tell the truth. Use logic to find the right path.",
+            "scene_description": "The guardians speak in deep, echoing voices. Only one path leads forward, but which?",
+            "scene_image": "crossroads_statements.png",
+            "scene_audio": "whispering_guardians.mp3",
+            "options": [
+                {
+                    "text": "Ọ̀nà Àkọ́kọ́: 'Ó jẹ́ òtítọ́ pé Ọ̀nà Kẹrin ni òdodo.'",
+                    "translation": "Path One: 'It is true that Path Four is the correct path.'",
+                    "next": "wrong_path",
+                    "score": 5
+                },
+                {
+                    "text": "Ọ̀nà Kejì: 'Ọ̀nà Àkọ́kọ́ kì í ṣe òtítọ́.'",
+                    "translation": "Path Two: 'Path One is not the true path.'",
+                    "next": "correct_path",
+                    "score": 10
+                },
+                {
+                    "text": "Ọ̀nà Kẹta: 'Ọ̀nà Kejì ṣì jẹ irọ́.'",
+                    "translation": "Path Three: 'Path Two is false.'",
+                    "next": "wrong_path",
+                    "score": 5
+                },
+                {
+                    "text": "Ọ̀nà Kẹrin: 'Ọ̀nà Kẹta ni òdodo.'",
+                    "translation": "Path Four: 'Path Three is the correct path.'",
+                    "next": "wrong_path",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Truth does not argue with itself. If one path is false, another must contradict it."
+        },
+        "correct_path": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi carefully considers the statements and steps onto the correct path. As she walks, the other paths dissolve into mist, revealing she has chosen wisely.",
+            "scene_description": "The path glows beneath her feet, leading forward into the unknown.",
+            "scene_image": "correct_path_glow.png",
+            "scene_audio": "mystic_chime.mp3",
+            "options": [
+                {
+                    "text": "Tẹ̀ síwájú.",
+                    "translation": "Move forward.",
+                    "next": "40",
+                    "score": 10
+                }
+            ]
+        },
+        "wrong_path": {
+            "speaker": "Narrator",
+            "text": "As Ọmọtẹmi steps forward, the path crumbles beneath her feet! Èṣù’s laughter echoes as she is returned to the crossroads.",
+            "scene_description": "A strong gust of wind pulls her back to the start. The puzzle must be solved again.",
+            "scene_image": "path_crumbling.png",
+            "scene_audio": "trickster_laugh.mp3",
+            "options": [
+                {
+                    "text": "Gbiyanju lẹẹkansi.",
+                    "translation": "Try again.",
+                    "next": "34",
+                    "score": 5
+                }
+            ]
+        },
+          "40": {
+            "speaker": "Narrator",
+            "text": "Èṣù gestures, and the room shifts. Three grand mirrors rise before Ọmọtẹmi, each reflecting a different version of herself. 'One shows the truth, one tells a half-truth, and one is a lie,' Èṣù grins. 'Find yourself, or be lost forever.'",
+            "scene_description": "The mirrors shimmer, distorting reality as whispers swirl around the chamber.",
+            "scene_image": "hall_of_mirrors.png",
+            "scene_audio": "ethereal_whispers.mp3",
+            "options": [
+                {
+                    "text": "Ṣàkíyèsí ìrántí Ọmọtẹmi ninu àwọn dígí náà.",
+                    "translation": "Observe Ọmọtẹmi's reflections in the mirrors.",
+                    "next": "41",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Truth stands firm, but deception shifts like mist."
+        },
+        "41": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi examines each mirror closely. The first reflection moves exactly as she does. The second lags slightly behind. The third moves before she does, as if predicting her actions.",
+            "scene_description": "Each reflection appears lifelike, but only one is truly hers.",
+            "scene_image": "three_mirror_reflections.png",
+            "scene_audio": "mirror_hum.mp3",
+            "options": [
+                {
+                    "text": "Dígí Kìíní: Ó dára, ó ń bá mi gbólóhùn gẹ́gẹ́ bíi ìròyìn.",
+                    "translation": "First Mirror: It moves exactly as I do, like a perfect reflection.",
+                    "next": "correct_mirror",
+                    "score": 10
+                },
+                {
+                    "text": "Dígí Kejì: Ó lèrò, sugbon ó ṣeéyàn lásìkò kan.",
+                    "translation": "Second Mirror: It follows me, but there is a delay.",
+                    "next": "wrong_mirror",
+                    "score": 5
+                },
+                {
+                    "text": "Dígí Kẹta: Ó dára, ṣùgbọ́n ó ń ṣàfihàn ṣáájú kí n to gbé ìgbésí kan.",
+                    "translation": "Third Mirror: It moves before I do, as if predicting my actions.",
+                    "next": "wrong_mirror",
+                    "score": 5
+                }
+            ]
+        },
+        "correct_mirror": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi steps toward the first mirror, and as she touches it, the illusions shatter! Èṣù claps. 'You see yourself clearly. That is wisdom.'",
+            "scene_description": "The false mirrors dissolve into mist, and a doorway appears in their place.",
+            "scene_image": "mirror_doorway.png",
+            "scene_audio": "glass_shattering.mp3",
+            "options": [
+                {
+                    "text": "Tẹ̀ síwájú.",
+                    "translation": "Move forward.",
+                    "next": "next_trial",
+                    "score": 10
+                }
+            ]
+        },
+        "wrong_mirror": {
+            "speaker": "Narrator",
+            "text": "As Ọmọtẹmi steps toward the mirror, a cold chill fills the air. The glass ripples, and her reflection grins mischievously before vanishing! Èṣù chuckles. 'Not every reflection is your own.'",
+            "scene_description": "The illusion vanishes, leaving her back where she started.",
+            "scene_image": "mirror_trap.png",
+            "scene_audio": "trickster_laugh.mp3",
+            "options": [
+                {
+                    "text": "Gbiyanju lẹẹkansi.",
+                    "translation": "Try again.",
+                    "next": "41",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "A false reflection leads or lags. Seek the one that matches you completely."
+        },
+          "50": {
+            "speaker": "Narrator",
+            "text": "With the illusions shattered, Èṣù grins and gestures to a grand table. 'Now, we play a game. Win, and I will reveal the knowledge you seek. Lose… and you will owe me a favor.'",
+            "scene_description": "A polished wooden table appears, covered with three cups. A single golden bead rests beneath one of them.",
+            "scene_image": "trickster_game_table.png",
+            "scene_audio": "mysterious_shuffling.mp3",
+            "options": [
+                {
+                    "text": "Ṣàkíyèsí ìgbéyíwè Èṣù.",
+                    "translation": "Watch Èṣù shuffle the cups.",
+                    "next": "51",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "A keen eye sees beyond misdirection."
+        },
+        "51": {
+            "speaker": "Narrator",
+            "text": "Èṣù’s hands move swiftly, shifting the cups in a blur. 'Choose wisely, Ọmọtẹmi. Where is the golden bead?'",
+            "scene_description": "The cups stop moving, their positions unclear. Èṣù smirks, watching her decision.",
+            "scene_image": "three_cups.png",
+            "scene_audio": "shuffling_cups.mp3",
+            "options": [
+                {
+                    "text": "Dìgí Kìíní.",
+                    "translation": "First Cup.",
+                    "next": "wrong_choice",
+                    "score": 5
+                },
+                {
+                    "text": "Dìgí Kejì.",
+                    "translation": "Second Cup.",
+                    "next": "correct_choice",
+                    "score": 10
+                },
+                {
+                    "text": "Dìgí Kẹta.",
+                    "translation": "Third Cup.",
+                    "next": "wrong_choice",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Trust what you saw, not what you think you saw."
+        },
+        "correct_choice": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi lifts the second cup—beneath it, the golden bead gleams! Èṣù bursts into laughter. 'Clever one! You saw through my trick.'",
+            "scene_description": "Èṣù flicks his fingers, and a portal shimmers open.",
+            "scene_image": "portal_appears.png",
+            "scene_audio": "portal_hum.mp3",
+            "options": [
+                {
+                    "text": "Tẹ̀ síwájú.",
+                    "translation": "Move forward.",
+                    "next": "70",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "A trickster respects those who can outwit him."
+        },
+        "wrong_choice": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi lifts the cup, but it is empty. Èṣù grins. 'Ah, so close! Now you owe me a favor, little traveler…'",
+            "scene_description": "Èṣù’s laughter echoes as the golden bead vanishes into thin air.",
+            "scene_image": "empty_cup.png",
+            "scene_audio": "trickster_laugh.mp3",
+            "options": [
+                {
+                    "text": "Gbiyanju lẹẹkansi.",
+                    "translation": "Try again.",
+                    "next": "51",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "A trickster’s game is never what it seems."
+        },
+         "70": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi steps into a chamber where her own footsteps seem to whisper back at her. Strange symbols shift across the walls, their meanings elusive. At the center stands Èṣù, a smirk playing on his lips. 'Words are nothing without understanding,' he says. 'Can you prove that you truly grasp their meaning?'",
+            "scene_description": "The chamber seems alive, shifting in response to unseen forces. The air crackles with energy, waiting for the trial to begin.",
+            "scene_image": "hall_of_echoes.png",
+            "scene_audio": "whispering_winds.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan.",
+                    "translation": "I am ready.",
+                    "next": "71",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Understanding is deeper than knowledge."
+        },
+        "71": {
+            "speaker": "Èṣù",
+            "text": "'Mo ní ọrọ̀ kan fún ẹ. Yálà o gbóye tàbí bẹ̀ẹ̀kọ́. Ọ̀rọ̀ yìí ni: ‘Odo tí ó gbàgbé orísun rẹ, yóò gbẹ́.’ Kí ló tumọ̀ si?'",
+            "scene_description": "As Èṣù speaks, four doorways shimmer into existence. Each bears an inscription—only one conveys the correct meaning.",
+            "scene_image": "four_paths.png",
+            "scene_audio": "low_murmur.mp3",
+            "options": [
+                {
+                    "text": "Tí a bá gbàgbé ibi tí a ti ń bọ̀, ibi tí a ń lọ le ṣòro.",
+                    "translation": "If we forget where we come from, the road ahead becomes difficult.",
+                    "next": "correct_answer",
+                    "score": 10
+                },
+                {
+                    "text": "Òrò pípẹ̀ kì í bọ́jú we yàrá.",
+                    "translation": "A long discussion cannot compare to a swift action.",
+                    "next": "wrong_answer",
+                    "score": 5
+                },
+                {
+                    "text": "Ẹni tó bá fẹ́ jìyà òdòdó, kó má gbó pẹ̀pẹ̀.",
+                    "translation": "One who fears the thorn should not seek the rose.",
+                    "next": "wrong_answer",
+                    "score": 5
+                },
+                {
+                    "text": "Agbára ọkàn ju agbára ara lọ.",
+                    "translation": "Strength of the mind is greater than strength of the body.",
+                    "next": "wrong_answer",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Wisdom is knowing the meaning behind words, not just their sound."
+        },
+        "correct_answer": {
+            "speaker": "Narrator",
+            "text": "The chamber hums as if in approval. The false doorways vanish, leaving only the true path ahead. Èṣù grins, a glint of mischief in his eyes. 'You see now. Words alone are not enough—understanding is the key.'",
+            "scene_description": "The correct doorway stands open, revealing a corridor bathed in ethereal light.",
+            "scene_image": "open_doorway.png",
+            "scene_audio": "soft_chime.mp3",
+            "options": [
+                {
+                    "text": "Tẹ̀ síwájú.",
+                    "translation": "Move forward.",
+                    "next": "80",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "The journey forward begins with true understanding."
+        },
+        "wrong_answer": {
+            "speaker": "Narrator",
+            "text": "The air trembles, and the false doorway collapses into darkness. Èṣù shakes his head, amusement flickering in his gaze. 'Hmmm… kì í ṣe bẹ́ẹ̀. Jẹ ká tún gbìyànjú Ọmọtẹmi.'",
+            "scene_description": "The chamber resets, returning to its original state. The trial begins again.",
+            "scene_image": "resetting_chamber.png",
+            "scene_audio": "distorted_whisper.mp3",
+            "options": [
+                {
+                    "text": "Gbiyanju lẹẹkansi.",
+                    "translation": "Try again.",
+                    "next": "71",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Think carefully—what is the lesson behind the words?"
+        },
+          "80": {
+            "speaker": "Narrator",
+            "text": "Èṣù’s laughter fades, and his expression turns grave. ‘Ọmọtẹmi, ìkànbé ń bọ̀,’ he says, his voice reverberating through the chamber. ‘A great rift has formed, not just between men, but among the Orisha themselves.’",
+            "scene_description": "The air thickens, the shifting walls of the chamber now showing visions of conflict—burning villages, broken temples, and shadowy figures manipulating events from the dark.",
+            "scene_image": "rift_visions.png",
+            "scene_audio": "ominous_winds.mp3",
+            "options": [
+                {
+                    "text": "Tani ó ń ṣe eyi?",
+                    "translation": "Who is responsible for this?",
+                    "next": "81",
+                    "score": 10
+                }
+            ]
+        },
+        "81": {
+            "speaker": "Èṣù",
+            "text": "‘Aiyé ń jó, Ọmọtẹmi. Àwọn àjèjì tí kò ní ètò nínú Ifá ń ṣàkóbá. Wọ́n ti bàjẹ́ ìlú, wọ́n fọ pátápátá ìbùkún àwọn òrìṣà. Ṣùgbọ́n èyí kì í ṣe ohun tí wọn fọhùn ṣòro—ọ̀kan nínú wọn, babaláwo kan, ń ṣàkóbá fún ayé.’",
+            "translation": "'The world is burning, Ọmọtẹmi. Outsiders who have no right to Ifá are corrupting it. They have desecrated the land, broken the blessings of the Orisha. But this is no ordinary destruction—one of them, a rogue Ifá priest, is disturbing the balance of existence itself.'",
+            "scene_description": "The walls flicker with images of a shadowy priest—his hands raised in dark ritual, severing the connection between the Orisha and their people.",
+            "scene_image": "rogue_ifa_priest.png",
+            "scene_audio": "dark_whispers.mp3",
+            "options": [
+                {
+                    "text": "Ohun tí mo gbọdọ̀ ṣe nísisì yàtọ̀ sí ọ̀rọ̀.",
+                    "translation": "Talking won’t be enough. I must act.",
+                    "next": "82",
+                    "score": 10
+                }
+            ]
+        },
+        "82": {
+            "speaker": "Èṣù",
+            "text": "‘Ẹ wò, Ọmọtẹmi. Tí ìlú kò bá ṣàlàyé ara wọn, ogun yóò sàn. Wọ́n ti bẹ̀rẹ̀ sí ní jà ní ààfin. Ọjọ́ ogun ń bọ̀, àti àwọn òrìṣà kì yóò ní agbára tí wọ́n fẹ̀ fún ìjà náà. Ọ̀ràn ò ń bẹ ní Abúlé, ìwọ lọ ní láti sọ òtítọ́ fún wọn!’",
+            "translation": "'Look, Ọmọtẹmi. If the people do not find reason, war will break out. They have already begun fighting in the palace. The day of war is coming, and the Orisha will not have the strength they need for the battle. There is trouble in the village—you must go and reveal the truth to them!'",
+            "scene_description": "The visions shift to a war-torn village—leaders in heated arguments, warriors sharpening weapons, and fear spreading through the people.",
+            "scene_image": "village_unrest.png",
+            "scene_audio": "distant_drums.mp3",
+            "options": [
+                {
+                    "text": "Mo lọ sí Abúlé láti mú àlàáfíà wá.",
+                    "translation": "I will go to the village and restore peace.",
+                    "next": "village_unrest",
+                    "score": 10
+                }
+            ]
+        }
+    }
+}
+
+
+

@@ -1,0 +1,55 @@
+{
+    "id": "temple-journey",
+    "location": "Path to the Sacred Temples",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Narrator",
+            "text": "With the village’s fate hanging in the balance, Ọmọtẹmi sets out to find proof of the Orisha’s power. The road forks ahead—one path leading toward the storm-cloaked temple of Ṣàngó, the other toward the hidden waters of Yemoja’s shrine.",
+            "scene_description": "A dusty road winds ahead, splitting into two paths. Dark clouds swirl above one route, while the other disappears beneath a shimmering blue mist.",
+            "scene_image": "path_fork.png",
+            "scene_audio": "wind_rustle.mp3",
+            "options": [
+                {
+                    "text": "Mo máa kó sílé Ṣàngó. Ògún la ti máa fi yan àkànṣe.",
+                    "translation": "I will go to Ṣàngó. Strength must carve the path forward.",
+                    "next": "sango_temple",
+                    "score": 10
+                },
+                {
+                    "text": "Mo máa lo sí Yemoja. Òye ati ìbùkún ni mo fẹ.",
+                    "translation": "I will go to Yemoja. Wisdom and blessing are what I seek.",
+                    "next": "yemoja_temple",
+                    "score": 10
+                },
+                {
+                    "text": "Jẹ́ kí n wá ojútùú. Ṣé a lè yà lórí, tàbí a le jo lọ?",
+                    "translation": "Let me find another way. Can I split my path, or can we go together?",
+                    "next": "split_decision",
+                    "score": 8
+                }
+            ]
+        },
+        "split_decision": {
+            "speaker": "Narrator",
+            "text": "Splitting paths means taking longer, but it may grant a deeper understanding of both Orisha. However, the village grows more restless with every passing moment.",
+            "scene_description": "Time is slipping away. If Ọmọtẹmi delays, the village may lose faith.",
+            "scene_image": "time_running_out.png",
+            "scene_audio": "ominous_tone.mp3",
+            "options": [
+                {
+                    "text": "Ṣàngó kò ní dúró. Mo máa kó sí ibẹ̀ nísisìyí!",
+                    "translation": "Ṣàngó will not wait. I must go there now!",
+                    "next": "sango_temple",
+                    "score": 10
+                },
+                {
+                    "text": "Yemoja ni òtítọ́ wa. Mo máa wá àsìkò sí Yemoja.",
+                    "translation": "Yemoja is our truth. I will take time for Yemoja.",
+                    "next": "yemoja_temple",
+                    "score": 10
+                }
+            ]
+        }
+    }
+}

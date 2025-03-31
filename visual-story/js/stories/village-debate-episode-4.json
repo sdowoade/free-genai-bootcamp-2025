@@ -1,0 +1,128 @@
+{
+    "id": "village-debate",
+    "location": "Village Gathering Grounds",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Narrator",
+            "text": "The village square swells with anxious murmurs as Ọmọtẹmi steps forward. Warriors stand beside Ọya, their faces set with determination. Nearby, merchants cluster around Dada, speaking in hushed voices. Farmers and elders listen in silence, awaiting a decision that could shape their future.",
+            "scene_description": "A tense gathering under the setting sun. Some villagers are ready for war, while others hesitate, fearing its consequences.",
+            "scene_image": "village_square_debate.png",
+            "scene_audio": "crowd_murmur.mp3",
+            "next": "02"
+        },
+        "02": {
+            "speaker": "Ọya",
+            "text": "A kì í yá sí ogun bí kò bá ṣetan láti gbẹ̀yìn rẹ! Ògún àti Ṣàngó ni alágbára wa! Bí a kò bá jagun, a máa di aláìlèní!",
+            "translation": "One does not rush into war unless ready to see it through! Ògún and Ṣàngó are our strength! If we do not fight, we will be powerless!",
+            "scene_description": "Ọya’s voice is strong, unyielding, as the warriors in the crowd cheer.",
+            "scene_image": "oya_speaks.png",
+            "scene_audio": "warriors_cheer.mp3",
+            "next": "03"
+        },
+        "03": {
+            "speaker": "Dada",
+            "text": "Ìjà ò dára fún owó. Ẹ rò ó, bí ogun bá wá, ta ni yóò fi n pèsè onjẹ? Ta ni yóò ta oúnjẹ sí wa?",
+            "translation": "War is bad for business. Think about it—if war comes, who will trade? Who will feed us?",
+            "scene_description": "Dada strokes his beard, his words smooth and calculated. Some villagers murmur in agreement.",
+            "scene_image": "dada_speaks.png",
+            "scene_audio": "merchant_murmur.mp3",
+            "next": "04"
+        },
+        "04": {
+            "speaker": "Village Elder",
+            "text": "Ṣàngó àti Yemoja kì í gbà wá sẹ́yìn tí a bá jẹ́ aláìní. Ṣùgbọ́n àwọn òrìṣà wà? A ò rí ààmì kankan!",
+            "translation": "Ṣàngó and Yemoja do not abandon us when we are in need. But where are the Orisha? We have seen no signs!",
+            "scene_description": "An elderly man steps forward, his voice shaky but filled with deep concern.",
+            "scene_image": "village_elder.png",
+            "scene_audio": "elder_speaks.mp3",
+            "next": "05"
+        },
+        "05": {
+            "speaker": "Young Warrior",
+            "text": "Ṣé a máa dúró dídánù bí a ṣe ń jù úpọ̀ sílẹ̀? Ẹ ò rí bí àwọn ọ̀tá wa ṣe ń mura?",
+            "translation": "Will we stand idly by and watch our fate slip away? Do you not see our enemies preparing for war?",
+            "scene_description": "A young warrior, barely past his coming-of-age ceremony, clenches his fists in frustration.",
+            "scene_image": "young_warrior.png",
+            "scene_audio": "warrior_murmur.mp3",
+            "next": "06"
+        },
+        "06": {
+            "speaker": "Merchant’s Wife",
+            "text": "Ṣé ẹ fẹ́ fi gbogbo ayé wa bọ́ sí ina ogun? Kí la máa jẹ? Kí àwọn ọmọ wa máa mu?",
+            "translation": "Do you wish to throw our entire lives into the fire of war? What will we eat? What will our children drink?",
+            "scene_description": "A woman clutching a child steps forward, her face lined with worry.",
+            "scene_image": "merchant_wife.png",
+            "scene_audio": "fearful_mother.mp3",
+            "next": "07"
+        },
+        "07": {
+            "speaker": "Narrator",
+            "text": "All eyes turn to Ọmọtẹmi. The villagers await her answer, their futures hanging in the balance.",
+            "scene_description": "A hush falls over the village square as all eyes focus on Ọmọtẹmi.",
+            "scene_image": "villagers_listen.png",
+            "scene_audio": "silence.mp3",
+            "options": [
+                {
+                    "text": "Tí a bá fẹ́ gbà àlàáfíà, a gbọ́dọ̀ gbé ìbàdí sílẹ̀.",
+                    "translation": "If we want peace, we must prepare for war.",
+                    "next": "08",
+                    "score": 10
+                },
+                {
+                    "text": "Ẹ jẹ́ ká fi ọgbọ́n gbé ìwà. Bó bá ti jẹ́ ọ̀rọ̀ òwò, wàá kì í pa aláyọ.",
+                    "translation": "Let us act with wisdom. If trade keeps us strong, why destroy it?",
+                    "next": "09",
+                    "score": 8
+                },
+                {
+                    "text": "Ẹ má bẹ̀ru. Òrìṣà wà! Mo máa lọ sí Ṣàngó àti Yemoja, kí n ba yín wá ààmì.",
+                    "translation": "Do not fear. The Orisha are here! I will go to Ṣàngó and Yemoja and bring back a sign.",
+                    "next": "10",
+                    "score": 10
+                }
+            ]
+        },
+        "08": {
+            "speaker": "Narrator",
+            "text": "Ọya nods approvingly, while Dada shakes his head. Some villagers look uneasy, but the warriors rally behind this decision.",
+            "scene_description": "Warriors step forward, preparing for battle.",
+            "scene_image": "warriors_ready.png",
+            "scene_audio": "battle_drums.mp3",
+            "next": "11"
+        },
+        "09": {
+            "speaker": "Narrator",
+            "text": "Dada grins, pleased with the response, while Ọya frowns. Some villagers look relieved, but others worry about appearing weak.",
+            "scene_description": "The merchants smile, knowing trade will continue, but some warriors shake their heads in frustration.",
+            "scene_image": "merchants_smile.png",
+            "scene_audio": "coins_jingling.mp3",
+            "next": "11"
+        },
+        "10": {
+            "speaker": "Narrator",
+            "text": "The villagers murmur in anticipation. If Ọmọtẹmi can bring proof of the Orisha’s favor, all doubt will be erased.",
+            "scene_description": "A wave of uncertainty spreads through the crowd, but hope lingers in their eyes.",
+            "scene_image": "hopeful_villagers.png",
+            "scene_audio": "hopeful_chatter.mp3",
+            "next": "11"
+        },
+        "11": {
+            "speaker": "Village Elder",
+            "text": "Ọmọtẹmi, ẹnu kò tó! A fẹ́ ààmì kan! Ọ̀rọ̀ àti òye kì í kọ ìgbàgbọ́.",
+            "translation": "Ọmọtẹmi, words are not enough! We need a sign! Words and wisdom do not build faith.",
+            "scene_description": "The elder's voice is firm. The villagers watch anxiously, waiting for the next move.",
+            "scene_image": "elder_demands_proof.png",
+            "scene_audio": "demanding_crowd.mp3",
+            "next": "12"
+        },
+        "12": {
+            "speaker": "Narrator",
+            "text": "With the villagers demanding proof, Ọmọtẹmi has no choice—she must seek out Ṣàngó and Yemoja to restore faith and unite the clans.",
+            "scene_description": "A heavy decision hangs over the gathering. The journey to the sacred temples begins...",
+            "scene_image": "journey_begins.png",
+            "scene_audio": "wind_rustling.mp3",
+            "next": "episode_4_temple_journey"
+        }
+    }
+}

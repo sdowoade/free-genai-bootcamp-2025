@@ -1,0 +1,38 @@
+{
+    "id": "return-to-ogun",
+    "location": "Ogun’s Forge",
+    "start": "20",
+    "dialog": {
+        "20": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi returns to Ogun’s forge, the ancient artifact glowing softly in her hands. The rhythmic clang of metal fills the air as Ogun turns to face her.",
+            "scene_description": "Molten metal glows in the forge, and sparks fly as Ogun hammers iron with precise, deliberate strokes.",
+            "scene_image": "ogun_forge.png",
+            "scene_audio": "metal_clang.mp3",
+            "options": [
+                {
+                    "text": "Fi ohun ìkànsí hàn Ogun.",
+                    "translation": "Show Ogun the artifact.",
+                    "next": "21",
+                    "score": 10
+                }
+            ]
+        },
+        "21": {
+            "speaker": "Ogun",
+            "text": "Ọwọ́ rẹ̀ ti fi ìṣẹ́ han! Ìyàwó ogun ò mọ’ra, ṣùgbọ́n èyí ni apá iṣẹ́ tí ó kù. Ẹ̀kúnrẹ́rẹ́ yóò wà lọ́dọ̀ Èṣù.",
+            "translation": "Your hands have done well! The warrior’s path is not yet complete, but this is the next step. The full truth lies with Èṣù.",
+            "scene_description": "Ogun studies the artifact, his gaze thoughtful, as if recalling an ancient memory.",
+            "scene_image": "ogun_stern.png",
+            "scene_audio": "deep_resonance.mp3",
+            "options": [
+                {
+                    "text": "Lọ wá Èṣù.",
+                    "translation": "Seek out Èṣù.",
+                    "next": "episode_3_start",
+                    "score": 10
+                }
+            ]
+        }
+    }
+}

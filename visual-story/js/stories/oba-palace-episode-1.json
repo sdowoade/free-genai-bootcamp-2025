@@ -1,0 +1,210 @@
+{
+    "id": "oba-palace-episode-1",
+    "location": "Ọba Adéwálé’s Palace",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ta ló dé? Tani ẹ?",
+            "translation": "Who arrives? Who are you?",
+            "scene_description": "Ọba Adéwálé sits on his throne, surrounded by village elders. The grand hall is dimly lit by torches, and the tension is thick as the messenger arrives.",
+            "scene_image": "oba_palace_throne_room.png",
+            "scene_audio": "messenger_arrival.mp3",
+            "options": [
+                {
+                    "text": "Mo jẹ́ Ọmọtẹmi. Mo ni ifiranṣẹ fún Ọba.",
+                    "translation": "I am Ọmọtẹmi. I have a message for the King.",
+                    "next": "02",
+                    "score": 10
+                },
+                {
+                    "text": "Jọwọ, ẹ jọ̀ọ́, mo ni ọrọ̀ pataki.",
+                    "translation": "Please, I have an important message.",
+                    "next": "02",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Be cautious, your explanation must be accurate. Think carefully."
+        },
+        "02": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ifiranṣẹ wo? Ta ló rán ẹ?",
+            "translation": "What message? Who sent you?",
+            "scene_description": "The elders murmur among themselves, casting suspicious glances at Ọmọtẹmi.",
+            "scene_image": "oba_palace_council.png",
+            "scene_audio": "murmuring_elders.mp3",
+            "options": [
+                {
+                    "text": "Ọbàtálá ni ó rán mi.",
+                    "translation": "Ọbàtálá sent me.",
+                    "next": "03",
+                    "score": 10
+                },
+                {
+                    "text": "A ò gbọdọ̀ ṣàì gbọ́, ifiranṣẹ náà ṣe pataki.",
+                    "translation": "You must listen, the message is important.",
+                    "next": "04",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Mention the sender clearly so they understand the urgency."
+        },
+        "03": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ọbàtálá? Gbogbo wa ti ro pé àwọn Orisha ti sọnù patapata.",
+            "translation": "Ọbàtálá? We all thought the Orisha were lost forever.",
+            "scene_description": "Shock and disbelief fill the air as the elders whisper in hushed voices.",
+            "scene_image": "elders_shocked.png",
+            "scene_audio": "gasps_of_surprise.mp3",
+            "options": [
+                {
+                    "text": "Rárá, wọn wà ní ilè ẹ̀mí.",
+                    "translation": "No, they exist in the spirit world.",
+                    "next": "04",
+                    "score": 10
+                },
+                {
+                    "text": "Mo ní ẹ̀rí, Ọba.",
+                    "translation": "I have proof, my King.",
+                    "next": "05",
+                    "score": 15
+                }
+            ],
+            "life_spirit_hint": "Convince them with confidence. They need to believe you."
+        },
+        "04": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Kí ló wà nínú ifiranṣẹ wọn?",
+            "translation": "What is their message?",
+            "scene_description": "Ọba Adéwálé leans forward, eyes narrowing as he waits for the message.",
+            "scene_image": "oba_listening.png",
+            "scene_audio": "suspenseful_pause.mp3",
+            "options": [
+                {
+                    "text": "Ọbàtálá ní ki a ṣọ́ra. Àwọn ibi ń bọ̀.",
+                    "translation": "Ọbàtálá warns us to be careful. Evil is coming.",
+                    "next": "05",
+                    "score": 10
+                },
+                {
+                    "text": "A gbọdọ̀ kó jọ, ibi ń bọ̀.",
+                    "translation": "We must gather, danger approaches.",
+                    "next": "06",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Deliver the warning clearly. The village’s fate depends on it."
+        },
+        "05": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Àwọn àgbà, ẹ gbọ́ ohun tí Ọbàtálá sọ.",
+            "translation": "Elders, hear what Ọbàtálá has said.",
+            "scene_description": "The elders nod solemnly, recognizing the gravity of the message.",
+            "scene_image": "elders_nodding.png",
+            "scene_audio": "elders_murmur_agreement.mp3",
+            "options": [
+            ],
+            "life_spirit_hint": "Encourage unity and preparation. The people must act together."
+        },
+        "06": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ọmọtẹmi, ifiranṣẹ yìí ṣe pataki púpọ̀. Ṣé o mọ ohun tí ó tumọ sí?",
+            "translation": "Ọmọtẹmi, this message is very important. Do you understand what it means?",
+            "scene_description": "The throne room is tense as the elders look between Ọba Adéwálé and Ọmọtẹmi, waiting for an explanation.",
+            "scene_image": "oba_palace_serious.png",
+            "scene_audio": "serious_tone.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, ọba. A gbọdọ mura sí ija!",
+                    "translation": "Yes, King. We must prepare for battle!",
+                    "next": "07",
+                    "score": 10
+                },
+                {
+                    "text": "Mo ṣiyemeji, Ọba. Njẹ a le ṣàbẹ̀wò sí Ọbàtálá lẹẹkansi?",
+                    "translation": "I have doubts, King. Should we consult Ọbàtálá again?",
+                    "next": "08",
+                    "score": 5
+                },
+                {
+                    "text": "Kí ló wù kí n ṣe, Ọba?",
+                    "translation": "What do you wish me to do, King?",
+                    "next": "09",
+                    "score": 3
+                }
+            ],
+            "life_spirit_hint": "Understanding the message is only the first step. What comes next matters most."
+        },
+        "07": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ìjà ni àyanfà. Ṣùgbọ́n, ta ló lè jùbà ibi tó ń bọ̀?",
+            "translation": "War may be the only choice. But who can stand against the coming darkness?",
+            "scene_description": "The elders murmur anxiously as the air grows heavy with worry.",
+            "scene_image": "oba_worried.png",
+            "scene_audio": "ominous_drums.mp3",
+            "options": [
+                {
+                    "text": "A le ko àwọn jagunjagun jọ!",
+                    "translation": "We can rally the warriors!",
+                    "next": "next_quest",
+                    "score": 10
+                },
+                {
+                    "text": "A gbọdọ gbadura fun hidaya",
+                    "translation": "We must pray for guidance.",
+                    "next": "next_quest",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Strength and wisdom must go hand in hand."
+        },
+        "08": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ṣugbọn, Ọbàtálá ti fi ifiranṣẹ ranṣẹ. Ṣé a gbọdọ wá àlàyé sí i?",
+            "translation": "But, Ọbàtálá has already sent a message. Do we need further clarification?",
+            "scene_description": "The elders exchange glances, unsure whether they should delay action.",
+            "scene_image": "elders_confused.png",
+            "scene_audio": "uncertainty.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, a nilo alaye sí i.",
+                    "translation": "Yes, we need more clarification.",
+                    "next": "09",
+                    "score": 3
+                },
+                {
+                    "text": "Rárá, a gbọdọ gbọ̀ràn.",
+                    "translation": "No, we must obey immediately.",
+                    "next": "07",
+                    "score": 7
+                }
+            ],
+            "life_spirit_hint": "Delays can be dangerous, but so can rushing forward blindly."
+        },
+        "09": {
+            "speaker": "Ọba Adéwálé",
+            "text": "Ó dara, mo fi ipa ranṣẹ sí ọ. Ṣé o le fi ara rẹ fun ìpinnu yìí?",
+            "translation": "Very well, I entrust you with this task. Can you dedicate yourself to this mission?",
+            "scene_description": "Ọba Adéwálé’s gaze is firm as he awaits Ọmọtẹmi’s response.",
+            "scene_image": "oba_stern.png",
+            "scene_audio": "decision_time.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, mo ṣetan.",
+                    "translation": "Yes, I am ready.",
+                    "next": "07",
+                    "score": 8
+                },
+                {
+                    "text": "Mo fẹ rò ó dáadáa.",
+                    "translation": "I need to think carefully.",
+                    "next": "08",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Sometimes, commitment is the hardest choice."
+        }
+    }
+}
+
+

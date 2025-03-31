@@ -1,0 +1,173 @@
+{
+    "id": "secrets-of-the-shrine",
+    "location": "Ancient Shrine of the Orisha",
+    "start": "06",
+    "dialog": {
+        "06": {
+            "speaker": "Mysterious Voice",
+            "text": "Ẹni tó bá wá ìmọ̀ nìkan ni yóò rí ìmọ̀. Ṣé o setan fún ìdánwò òye?",
+            "translation": "Only those who seek wisdom shall find it. Are you ready for the trial of knowledge?",
+            "scene_description": "As Ọmọtẹmi steps into the shrine, glowing Yoruba symbols appear on the walls, pulsing with energy. A disembodied voice echoes through the chamber.",
+            "scene_image": "shrine_glowing_symbols.png",
+            "scene_audio": "mystic_whispers.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan. Fún mi ní ìdánwò rẹ!",
+                    "translation": "I am ready. Give me your trial!",
+                    "next": "07",
+                    "score": 10
+                },
+                {
+                    "text": "Ṣé mo le mọ iye ìdánwò yìí?",
+                    "translation": "Can I know more about this trial first?",
+                    "next": "08",
+                    "score": 8
+                }
+            ],
+            "life_spirit_hint": "Wisdom is not just about knowing, but about understanding."
+        },
+        "07": {
+            "speaker": "Mysterious Voice",
+            "text": "Ó dára! O gbọdọ́ yan òwe kan tí ó dára jù lára mẹrin. Ṣé o le mọ iyọrísí rẹ?",
+            "translation": "Good! You must choose the one correct proverb from these four. Can you discern its meaning?",
+            "scene_description": "Four Yoruba proverbs appear in glowing golden letters on the shrine walls.",
+            "scene_image": "shrine_proverbs.png",
+            "scene_audio": "mystic_chime.mp3",
+            "options": [
+                {
+                    "text": "Bí a bá jà, a gbọ́dọ̀ mọ ẹni tí a ń bá jà.",
+                    "translation": "If we must fight, we must know who we are fighting.",
+                    "next": "09",
+                    "score": 10
+                },
+                {
+                    "text": "Ogún kì í jà kí ó má j’ẹran.",
+                    "translation": "Ogun never fights without drawing blood.",
+                    "next": "fail",
+                    "score": 5
+                },
+                {
+                    "text": "Ajá tó bá máa ṣeré pẹ̀lú ikú, ara rẹ̀ ló máa bà jé.",
+                    "translation": "The dog that plays with death will suffer the consequences.",
+                    "next": "fail",
+                    "score": 5
+                },
+                {
+                    "text": "Ẹnìkan kì í yá sí ogun bí kò bá ṣetan láti gbẹ̀yìn rẹ.",
+                    "translation": "No one rushes into war unless they are ready to see it through.",
+                    "next": "fail",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "War is not just about strength; it is about strategy and understanding."
+        },
+        "08": {
+            "speaker": "Mysterious Voice",
+            "text": "Ìdánwò yìí jẹ́ àyẹ̀wò ọgbọ́n rẹ. Iwọ yóò yàn òwe tó fi ìmọ̀ pamọ́, àti àwọn tí kò ní iye kan. Ṣé o ṣetan?",
+            "translation": "This trial will test your wisdom. You must choose the proverb that carries knowledge and avoid those that mislead. Are you ready?",
+            "scene_description": "The shrine pulses with energy, urging Ọmọtẹmi to decide.",
+            "scene_image": "shrine_pulsing.png",
+            "scene_audio": "rising_tension.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan. Kó ìdánwò bẹ̀rẹ̀!",
+                    "translation": "I am ready. Let the trial begin!",
+                    "next": "07",
+                    "score": 9
+                }
+            ],
+            "life_spirit_hint": "Be confident. Overthinking is not always wise."
+        },
+        "09": {
+            "speaker": "Mysterious Voice",
+            "text": "Ó ṣeun. Iwọ yàn òwe tó tọ̀nà. Ògún yóò mú ọ lọ sí ipa tó kàn. Ṣé o ṣetan láti tẹ̀ síwájú?",
+            "translation": "Well done. You have chosen the right proverb. Ògún will now guide you to the next path. Are you ready to move forward?",
+            "scene_description": "The shrine walls shift, revealing a hidden passage leading deeper into the ancient ruins.",
+            "scene_image": "shrine_hidden_passage.png",
+            "scene_audio": "stone_moving.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan. Jẹ́ ki n tẹ̀ síwájú!",
+                    "translation": "I am ready. Let me move forward!",
+                    "next": "next_quest",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Wisdom has guided you. Now, courage must lead the way."
+        },
+                "10": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi steps through the hidden passage and enters a vast forgotten chamber of the shrine. But she is not alone—bandits have arrived, seeking the shrine’s power. How will she handle them?",
+            "translation": "Ọmọtẹmi steps through the hidden passage and enters a vast forgotten chamber of the shrine. But she is not alone—bandits have arrived, seeking the shrine’s power. How will she handle them?",
+            "scene_description": "A dark chamber with towering stone pillars. The flickering torchlight reveals armed bandits searching the shrine.",
+            "scene_image": "shrine_bandits.png",
+            "scene_audio": "ominous_drums.mp3",
+            "options": [
+                {
+                    "text": "Confront them head-on!",
+                    "translation": "Confront them head-on!",
+                    "next": "11",
+                    "score": 10
+                },
+                {
+                    "text": "Try to sneak past unnoticed.",
+                    "translation": "Try to sneak past unnoticed.",
+                    "next": "12",
+                    "score": 8
+                },
+                {
+                    "text": "Deceive them into thinking I am an ally.",
+                    "translation": "Deceive them into thinking I am an ally.",
+                    "next": "13",
+                    "score": 7
+                }
+            ],
+            "life_spirit_hint": "Strength, stealth, or strategy—each choice carries consequences."
+        },
+                "11": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi draws her weapon and charges at the bandits! A fierce battle ensues in the ancient chamber.",
+            "scene_description": "Clashing steel echoes through the shrine as Ọmọtẹmi faces off against the intruders.",
+            "scene_image": "shrine_battle.png",
+            "scene_audio": "battle_sounds.mp3",
+            "next": "battle_result"
+        },
+        "12": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi moves carefully through the shadows, attempting to bypass the bandits unnoticed.",
+            "scene_description": "Using the pillars for cover, she creeps past the distracted intruders.",
+            "scene_image": "shrine_stealth.png",
+            "scene_audio": "quiet_steps.mp3",
+            "next": "stealth_result"
+        },
+        "13": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi steps forward confidently, weaving a convincing tale to the bandits.",
+            "scene_description": "She adjusts her stance, speaking with authority to blend in with the group.",
+            "scene_image": "shrine_deception.png",
+            "scene_audio": "persuasive_tone.mp3",
+            "next": "deception_result"
+        },
+                "battle_result": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi fights bravely, but the bandits are fierce. After a grueling battle, she emerges victorious but wounded.",
+            "scene_description": "Bloodied but standing, she surveys the fallen foes and prepares to move deeper into the shrine.",
+            "scene_image": "shrine_battle_aftermath.png",
+            "scene_audio": "heavy_breathing.mp3"
+        },
+        "stealth_result": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi moves like a shadow, slipping past the bandits unnoticed. She reaches the next chamber without drawing attention.",
+            "scene_description": "The bandits remain unaware as she vanishes into the darkness beyond.",
+            "scene_image": "shrine_safe_passage.png",
+            "scene_audio": "silent_wind.mp3"
+        },
+        "deception_result": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi’s words are convincing, and the bandits let her pass, mistaking her for a fellow rogue. However, one of them eyes her suspiciously as she moves ahead.",
+            "scene_description": "With a careful pace, she walks past the bandits, hoping they do not change their minds.",
+            "scene_image": "shrine_cautious_glance.png",
+            "scene_audio": "low_murmurs.mp3"
+        }
+    }
+}

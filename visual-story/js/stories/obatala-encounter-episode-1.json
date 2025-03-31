@@ -1,0 +1,133 @@
+{
+    "id": "obatala-encounter-episode-1",
+    "location": "Sacred Grove of Ọbàtálá",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Ọbàtálá",
+            "text": "Ọmọtẹmi, o ti dé. Mo ti ń dúró de rẹ. Se o setan fún ìrìn àjò rẹ?",
+            "translation": "Ọmọtẹmi, you have arrived. I have been expecting you. Are you ready for your journey?",
+            "scene_description": "A mystical grove bathed in soft white light. Ọbàtálá, robed in flowing white garments, stands before a sacred tree.",
+            "scene_image": "obatala_sacred_grove.png",
+            "scene_audio": "divine_whisper.mp3",
+            "options": [
+                {
+                    "text": "Mo setan, Baba Ọbàtálá.",
+                    "translation": "I am ready, Father Ọbàtálá.",
+                    "next": "02",
+                    "score": 10
+                },
+                {
+                    "text": "Mo ni ibẹru, sugbon mo fẹ mọ idi rẹ.",
+                    "translation": "I am afraid, but I want to understand why.",
+                    "next": "03",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Courage is important, but so is curiosity. Choose wisely."
+        },
+        "02": {
+            "speaker": "Ọbàtálá",
+            "text": "Dára, ìrìn àjò yìí ń gbà agbára àti ìmò. Ṣé o l’ọkàn balẹ?",
+            "translation": "Good, this journey requires strength and wisdom. Do you have a calm heart?",
+            "scene_description": "Ọbàtálá steps closer, his presence filling the grove with a calming aura.",
+            "scene_image": "obatala_speaking.png",
+            "scene_audio": "gentle_breeze.mp3",
+            "options": [
+                {
+                    "text": "Mo ni igbagbo ninu ara mi.",
+                    "translation": "I have faith in myself.",
+                    "next": "04",
+                    "score": 10
+                },
+                {
+                    "text": "Mo ní àníyàn, ṣùgbọ́n mo fẹ gbìyànjú.",
+                    "translation": "I have doubts, but I want to try.",
+                    "next": "05",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Confidence is powerful, but admitting doubt can also be a strength."
+        },
+        "03": {
+            "speaker": "Ọbàtálá",
+            "text": "Ìbẹ̀rù rẹ ló dára, sugbon gbó: Ọ̀nà yìí kún fún àbẹ̀wò àti ìmò. Ṣé o ṣetan?",
+            "translation": "Your fear is natural, but listen: This path is full of revelations and wisdom. Are you ready?",
+            "scene_description": "Ọbàtálá’s eyes glow softly as a breeze rustles through the sacred grove.",
+            "scene_image": "obatala_watching.png",
+            "scene_audio": "rustling_leaves.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, mo ṣetan.",
+                    "translation": "Yes, I am ready.",
+                    "next": "02",
+                    "score": 5
+                },
+                {
+                    "text": "Mo fẹ mọ siwaju sii ṣaaju ki n to pinnu.",
+                    "translation": "I want to know more before I decide.",
+                    "next": "06",
+                    "score": 3
+                }
+            ],
+            "life_spirit_hint": "Seeking knowledge is wise, but hesitation can be costly."
+        },
+        "04": {
+            "speaker": "Ọbàtálá",
+            "text": "Igbagbo rẹ ni yóò fi ọ siwaju. Bayi, lọ si Ọba Adéwálé, ki o fi ifiranṣẹ mi ranṣẹ.",
+            "translation": "Your faith will guide you. Now, go to King Adéwálé and deliver my message.",
+            "scene_description": "Ọbàtálá raises his hand, and a soft glow surrounds you as you prepare to leave.",
+            "scene_image": "obatala_blessing.png",
+            "scene_audio": "divine_light.mp3",
+            "options": [
+                {
+                    "text": "Mo dupe, Baba Ọbàtálá.",
+                    "translation": "Thank you, Father Ọbàtálá.",
+                    "next": "end_of_dialogue",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "Gratitude strengthens your path."
+        },
+        "05": {
+            "speaker": "Ọbàtálá",
+            "text": "Ìpinnu rẹ ṣe pataki. Ṣé o le gbẹkẹle ara rẹ?",
+            "translation": "Your decision is important. Can you trust yourself?",
+            "scene_description": "Ọbàtálá watches you closely, waiting for your answer.",
+            "scene_image": "obatala_questioning.png",
+            "scene_audio": "soft_wind.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, mo gbẹkẹle ara mi.",
+                    "translation": "Yes, I trust myself.",
+                    "next": "04",
+                    "score": 5
+                },
+                {
+                    "text": "Mo ní àníyàn, ṣùgbọ́n mo fẹ kọ ẹkọ diẹ sii.",
+                    "translation": "I have doubts, but I want to learn more.",
+                    "next": "06",
+                    "score": 3
+                }
+            ],
+            "life_spirit_hint": "Trust is essential, but growth comes from learning."
+        },
+        "06": {
+            "speaker": "Ọbàtálá",
+            "text": "Ìmò je ohun pataki. Sugbon ma jìya fun ìdẹwò.",
+            "translation": "Knowledge is important, but do not suffer from hesitation.",
+            "scene_description": "A gentle wind sweeps through the grove, carrying whispers of wisdom.",
+            "scene_image": "obatala_wisdom.png",
+            "scene_audio": "whispering_winds.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan bayi.",
+                    "translation": "I am ready now.",
+                    "next": "04",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Delaying too long may cost you valuable time."
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "epilogue": {
+        "narrator": {
+            "text": [
+                "The storm has passed. The ground, once trembling with power, now lies still beneath Ọmọtẹmi’s feet. The last echoes of the Rogue Ifá Priest’s defiance fade into the wind, leaving only silence.",
+                "Above, the sky, once darkened by discord, is now vast and open, painted with the golden hues of a rising dawn. The battle is over. Balance has been restored.",
+                "The villagers emerge from their homes, hesitant at first, then with joyful cries. Warriors lay down their weapons. Traders return to their stalls. The rivers flow once more, and the temples stand renewed, their flames burning bright.",
+                "Ọmọtẹmi stands at the center of it all, the weight of her journey pressing upon her shoulders. She has walked the path of the Orisha, faced trials of wisdom, strength, and sacrifice, and now… she has triumphed.",
+                "A familiar warmth stirs within her—the Life Spirit, still with her, always with her.",
+                "‘You have done well, Ọmọtẹmi,’ the voice hums softly. ‘You have not only saved them—you have shown them the way.’",
+                "She looks to the horizon, where the temples of the Orisha stand in quiet reverence. The power of Ṣàngó’s Axe and Yemoja’s Wisdom Crown hums at her side, proof of her trials. The world, once teetering on the edge of war, now breathes in peace.",
+                "Then, from the heavens, another voice calls to her. It is steady, calm, filled with the weight of eternity.",
+                "‘Ọmọtẹmi…’",
+                "It is Òbàtálá.",
+                "‘Your journey is not yet over.’",
+                "Her heart steadies. She knows this is not the end. The world will always need guardians. The Orisha will always call upon those who listen.",
+                "And Ọmọtẹmi is ready."
+            ],
+            "scene_description": "The village celebrates, the land heals, and the Orisha temples are restored. But from the heavens, Òbàtálá’s voice reminds Ọmọtẹmi that her journey is far from over.",
+            "scene_image": "restored_village_festival.png",
+            "scene_audio": "peaceful_reunion.mp3"
+        }
+    }
+}

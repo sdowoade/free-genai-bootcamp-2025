@@ -1,0 +1,153 @@
+{
+    "id": "sango-trial",
+    "location": "Ṣàngó’s Storm Shrine",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi steps into the shrine, and at once, the air crackles with electricity. Thunder rumbles in the distance as the storm god’s presence looms. Before her, a corridor of shifting lightning awaits.",
+            "scene_description": "The walls pulse with red-hot energy, and flashes of lightning strike unpredictably. The path ahead is dangerous and unrelenting.",
+            "scene_image": "sango_lightning_path.png",
+            "scene_audio": "thunder_rumble.mp3",
+            "options": [
+                {
+                    "text": "Mo máa gbé ojú mi sókè kí n gbèrò kíá ṣáájú kí n tó rìn.",
+                    "translation": "I will study the pattern of the lightning before stepping forward.",
+                    "next": "02",
+                    "score": 10
+                },
+                {
+                    "text": "Kò sí àkókò fí mi nì. Mo máa sare kọjá.",
+                    "translation": "There is no time to waste. I will rush through!",
+                    "next": "fail_01",
+                    "score": 5
+                },
+                {
+                    "text": "Mo máa fi agbara mi lo. Ṣàngó kò ní ṣàkóbá fún ẹni tó lagbara.",
+                    "translation": "I will use my strength. Ṣàngó does not punish the strong.",
+                    "next": "03",
+                    "score": 8
+                }
+            ],
+            "life_spirit_hint": "Ṣàngó respects strength, but a wise warrior knows when to be cautious."
+        },
+        "02": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi carefully watches the lightning’s rhythm and finds the safest moments to move. She dashes between the strikes, reaching the other side unharmed.",
+            "scene_description": "She breathes heavily, but she has proven her patience and awareness.",
+            "scene_image": "sango_safe_zone.png",
+            "scene_audio": "relieved_sigh.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan fún ìpèníjà tó kàn!",
+                    "translation": "I am ready for the next challenge!",
+                    "next": "04",
+                    "score": 10
+                }
+            ]
+        },
+        "03": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi braces herself and pushes forward with sheer determination. The lightning strikes dangerously close, but she withstands the heat and force.",
+            "scene_description": "Her body tingles with the energy of Ṣàngó’s storm, but she does not falter.",
+            "scene_image": "sango_energy.png",
+            "scene_audio": "electric_surround.mp3",
+            "options": [
+                {
+                    "text": "Mo máa tẹ̀ síwájú!",
+                    "translation": "I will press forward!",
+                    "next": "04",
+                    "score": 8
+                }
+            ]
+        },
+        "fail_01": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi rushes ahead without planning, and the lightning strikes her with full force. She collapses to the ground, dazed and in pain.",
+            "scene_description": "The storm rejects the reckless. This is a painful lesson.",
+            "scene_image": "sango_failure.png",
+            "scene_audio": "thunder_crash.mp3",
+            "options": [
+                {
+                    "text": "Mo gbọ́. Mo máa gbìyànjú lẹ́ẹ̀kan sí.",
+                    "translation": "I understand. I will try again.",
+                    "next": "01",
+                    "score": 0
+                }
+            ]
+        },
+        "04": {
+            "speaker": "Narrator",
+            "text": "As Ọmọtẹmi reaches the inner sanctum, flames roar from towering pillars. The heat is unbearable, but she must prove her endurance.",
+            "scene_description": "The fire blazes, and the only way forward is through it.",
+            "scene_image": "sango_fire_pillars.png",
+            "scene_audio": "fire_crackle.mp3",
+            "options": [
+                {
+                    "text": "Mo máa fi ìbàṣepọ̀ mi pè Ṣàngó kí ó mú kí ina yìí fẹ̀.",
+                    "translation": "I will call upon my bond with Ṣàngó to lessen the flames.",
+                    "next": "05",
+                    "score": 10
+                },
+                {
+                    "text": "Mo máa jiya. Ifẹ̀ Ṣàngó kò ní jẹ́ kí n bàjẹ́.",
+                    "translation": "I will endure the pain. Ṣàngó’s favor will protect me.",
+                    "next": "06",
+                    "score": 8
+                },
+                {
+                    "text": "Mo máa wá ọna yókù. Kò sí òun tó dé ibi yìí tí kò ní ọ̀nà miran.",
+                    "translation": "I will find another way. There must be another path.",
+                    "next": "fail_02",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Ṣàngó is fire and fury, but even fire yields to respect and power."
+        },
+        "05": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi kneels and utters a prayer to Ṣàngó. The flames soften, bending in recognition of her connection to the storm god.",
+            "scene_description": "She walks through unharmed, the fire swirling gently around her.",
+            "scene_image": "sango_purified_fire.png",
+            "scene_audio": "fire_whoosh.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan fún ipari idánwò yìí.",
+                    "translation": "I am ready for the final trial.",
+                    "next": "07",
+                    "score": 10
+                }
+            ]
+        },
+        "06": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi clenches her fists and pushes forward. The flames sear her skin, but she does not stop. She emerges, battered but victorious.",
+            "scene_description": "Her breath is ragged, but she has proven her strength.",
+            "scene_image": "sango_battle_worn.png",
+            "scene_audio": "heavy_breathing.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan fún ipari idánwò yìí.",
+                    "translation": "I am ready for the final trial.",
+                    "next": "07",
+                    "score": 8
+                }
+            ]
+        },
+        "fail_02": {
+            "speaker": "Narrator",
+            "text": "Ọmọtẹmi hesitates, searching for another way, but the flames only grow stronger. The hesitation is punished, and she stumbles back, weakened.",
+            "scene_description": "There is no escape. She must go through the trial, or fail.",
+            "scene_image": "sango_no_escape.png",
+            "scene_audio": "fire_roar.mp3",
+            "options": [
+                {
+                    "text": "Mo gbọ́. Mo máa gbìyànjú lẹ́ẹ̀kan sí.",
+                    "translation": "I understand. I will try again.",
+                    "next": "04",
+                    "score": 0
+                }
+            ]
+        }
+    }
+}

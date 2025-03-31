@@ -1,0 +1,116 @@
+{
+    "id": "secrets-of-the-shrine",
+    "location": "Forge of Ògún",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Ògún",
+            "text": "Ta ni o ń wá mi níbi yìí? Kí ló mú ẹ wá sí ilẹ̀ irin?",
+            "translation": "Who seeks me here? What brings you to the land of iron?",
+            "scene_description": "Ògún stands amidst roaring flames, hammering a glowing blade upon his anvil. Sparks fly with each strike, and the air smells of molten metal.",
+            "scene_image": "ogun_forge.png",
+            "scene_audio": "forge_ambience.mp3",
+            "options": [
+                {
+                    "text": "Ọbàtálá rán mi. A nilo iranlọwọ rẹ!",
+                    "translation": "Ọbàtálá sent me. We need your help!",
+                    "next": "02",
+                    "score": 10
+                },
+                {
+                    "text": "Mo wá láti kẹ́kọ̀ọ́ ìmọ̀ yín, Ògún Olùdá Irin.",
+                    "translation": "I have come to learn your wisdom, Ògún, Creator of Iron.",
+                    "next": "02",
+                    "score": 8
+                }
+            ],
+            "life_spirit_hint": "Ògún respects courage and purpose. Be direct and fearless."
+        },
+        "02": {
+            "speaker": "Ògún",
+            "text": "Ìjọba òkùnkùn ń dẹ́ wa dúró. Ṣugbọn kì í ṣe nípa agbara nìkan ni a fi ń ṣẹ́gun. Ṣé o setan láti fi ọpọlọ loògùn?",
+            "translation": "The dark forces block our path. But victory is not through strength alone. Are you ready to use wisdom as your weapon?",
+            "scene_description": "Ògún halts his hammering and looks at Ọmọtẹmi with piercing eyes, as if weighing her soul.",
+            "scene_image": "ogun_staring.png",
+            "scene_audio": "metal_clang.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣetan lati kọ ẹkọ rẹ.",
+                    "translation": "I am ready to learn your ways.",
+                    "next": "03",
+                    "score": 10
+                },
+                {
+                    "text": "Mo fẹ gbìyànjú agbara mí ni akọkọ.",
+                    "translation": "I want to test my strength first.",
+                    "next": "04",
+                    "score": 7
+                }
+            ],
+            "life_spirit_hint": "Strength without wisdom is reckless. Choose wisely."
+        },
+        "03": {
+            "speaker": "Ògún",
+            "text": "Ó dára. Ìṣòro kan wà. Ìtàn ti sọnu. Ìwọ gbọdọ wá òwe atijọ́ tó fi ìmọ̀ yìí pamọ́.",
+            "translation": "Good. But there is a problem. The knowledge has been lost. You must uncover the ancient proverbs that hold this wisdom.",
+            "scene_description": "Ògún gestures towards a stone tablet covered in cryptic Yoruba inscriptions, glowing faintly.",
+            "scene_image": "ogun_tablet.png",
+            "scene_audio": "mystical_rumble.mp3",
+            "options": [
+                {
+                    "text": "Nibo ni mo ti le rí àwọn òwe yìí?",
+                    "translation": "Where can I find these proverbs?",
+                    "next": "05",
+                    "score": 10
+                }
+            ],
+            "life_spirit_hint": "The wisdom of the past is the key to the future."
+        },
+        "04": {
+            "speaker": "Ògún",
+            "text": "Agbara rẹ yóò ní idanwo. Ṣùgbọ́n ìmọ̀ jẹ́ ọ̀wọ́kànsí. Nígbà tó bá gbọ́ àdánù yóò jẹ?",
+            "translation": "Your strength will be tested. But knowledge is key. When brute force fails, what will you do?",
+            "scene_description": "Ògún slams his hammer down, causing the ground to tremble as a trial begins.",
+            "scene_image": "ogun_trial.png",
+            "scene_audio": "battle_drums.mp3",
+            "options": [
+                {
+                    "text": "Mo máa lo ìmọ̀ àti agbára papọ̀.",
+                    "translation": "I will use both knowledge and strength together.",
+                    "next": "03",
+                    "score": 9
+                },
+                {
+                    "text": "Mo máa gbẹ̀kẹ̀lé agbára mi nìkan.",
+                    "translation": "I will rely on my strength alone.",
+                    "next": "05",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "A warrior without wisdom is like an iron blade without an edge."
+        },
+        "05": {
+            "speaker": "Ògún",
+            "text": "Lo sí ibi ìsìn àtijọ́, ibi tí àwọn òrìṣà ti fi ìmọ̀ pamọ́. Ṣùgbọ́n ṣọ́ra, àwọn jàǹdùkú ń wá ìpa rẹ.",
+            "translation": "Go to the ancient shrine, where the Orisha hid their knowledge. But be careful, bandits seek its power too.",
+            "scene_description": "Ògún nods, handing Ọmọtẹmi a map to the shrine hidden deep in the forest.",
+            "scene_image": "ogun_map.png",
+            "scene_audio": "map_unfurl.mp3",
+            "options": [
+                {
+                    "text": "Mo máa lọ sí ibẹ̀ ní kíákíá!",
+                    "translation": "I will go there immediately!",
+                    "next": "next_quest",
+                    "score": 10
+                },
+                {
+                    "text": "Ṣé kò sí ọna míràn?",
+                    "translation": "Is there no other way?",
+                    "next": "next_quest",
+                    "score": 7
+                }
+            ],
+            "life_spirit_hint": "Knowledge is hidden in the most sacred of places. Be swift, but be wise."
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "shrine-inner-chamber",
+    "location": "Inner Chamber of the Shrine",
+    "start": "15",
+    "dialog": {
+        "15": {
+            "speaker": "Narrator",
+            "text": "As the guardian spirit fades, the great stone doors groan open, revealing a vast chamber filled with ancient carvings and forgotten relics.",
+            "translation": "As the guardian spirit fades, the great stone doors groan open, revealing a vast chamber filled with ancient carvings and forgotten relics.",
+            "scene_description": "Dim torchlight flickers across the walls, illuminating intricate Yoruba symbols and artifacts. In the center, a raised pedestal glows with mysterious energy.",
+            "scene_image": "shrine_inner_chamber.png",
+            "scene_audio": "deep_rumble.mp3",
+            "options": [
+                {
+                    "text": "Approach the glowing pedestal.",
+                    "translation": "Approach the glowing pedestal.",
+                    "next": "17",
+                    "score": 8
+                }
+            ]
+        },
+        "17": {
+            "speaker": "Narrator",
+            "text": "As Ọmọtẹmi nears the pedestal, the air grows heavy. A golden artifact rests at the center, pulsing with power. It hums as if recognizing her presence.",
+            "translation": "As Ọmọtẹmi nears the pedestal, the air grows heavy. A golden artifact rests at the center, pulsing with power. It hums as if recognizing her presence.",
+            "scene_description": "The artifact glows brighter, as though awaiting her decision.",
+            "scene_image": "shrine_glowing_pedestal.png",
+            "scene_audio": "low_resonance.mp3",
+            "life_spirit_hint": "We have to take this back to Ogun"
+
+        }
+    }
+}

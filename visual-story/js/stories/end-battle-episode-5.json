@@ -1,0 +1,377 @@
+{
+    "id": "final-battle",
+    "location": "Sacred Battlefield",
+    "start": "01",
+    "dialog": {
+        "01": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "O dárí jì, Ọmọtẹmi? Ìbàjẹ́ ti di òpin, mo ti gbà gbogbo agbára ayé!",
+            "translation": "Do you surrender, Ọmọtẹmi? The corruption is complete. I now wield all the power of fate!",
+            "scene_description": "Dark clouds swirl as the Rogue Ifá Priest levitates, his staff pulsing with ominous energy.",
+            "scene_image": "dark_clouds.png",
+            "scene_audio": "evil_chant.mp3",
+            "options": [
+                {
+                    "text": "Mi ò dárí jì! Mo gbé agbára àwọn Òrìṣà ga!",
+                    "translation": "I do not surrender! I call upon the power of the Orisha!",
+                    "next": "02"
+                }
+            ]
+        },
+        "02": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "Ẹfúùfù! Mo yóò dá afẹ́fẹ́ àìmọ̀lè sílẹ̀ láti gbé ọ lọ!",
+            "translation": "Winds! I summon a storm to sweep you away!",
+            "scene_description": "A violent whirlwind forms, threatening to throw Ọmọtẹmi into the abyss.",
+            "scene_image": "stormy_winds.png",
+            "scene_audio": "whirlwind.mp3",
+            "options": [
+                {
+                    "text": "Pe Ọya",
+                    "translation": "Summon Ọya (Orisha of Winds and Storms)",
+                    "next": "03",
+                    "battle_points": 10
+                },
+                {
+                    "text": "Pe Ṣàngó",
+                    "translation": "Summon Ṣàngó (Orisha of Thunder and Fire)",
+                    "next": "03",
+                    "battle_points": 5
+                },
+                {
+                    "text": "Pe Erinlẹ̀",
+                    "translation": "Summon Erinlẹ̀ (Orisha of the Hunt)",
+                    "next": "fail_02",
+                    "battle_points": -5
+                },
+                {
+                    "text": "Pe Olókun",
+                    "translation": "Summon Olókun (Orisha of the Deep Ocean)",
+                    "next": "fail_02",
+                    "battle_points": -5
+                }
+            ]
+        },
+        "03": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "Àwọn ojú inú má fi ọ sọfò! Mo yóò fi àbùlè yìí dárí rẹ!",
+            "translation": "Your eyes deceive you! I will drown you in illusions!",
+            "scene_description": "A wave of mirages floods the battlefield, distorting reality.",
+            "scene_image": "illusions_field.png",
+            "scene_audio": "whispering_spirits.mp3",
+            "options": [
+                {
+                    "text": "Pe Èṣù",
+                    "translation": "Summon Èṣù (Orisha of Trickery and Fate)",
+                    "next": "04",
+                    "battle_points": 10
+                },
+                {
+                    "text": "Pe Òsanyìn",
+                    "translation": "Summon Òsanyìn (Orisha of Knowledge and Healing)",
+                    "next": "04",
+                    "battle_points": 5
+                },
+                {
+                    "text": "Pe Ògún",
+                    "translation": "Summon Ògún (Orisha of War and Metal)",
+                    "next": "fail_03",
+                    "battle_points": -5
+                },
+                {
+                    "text": "Pe Ọbà",
+                    "translation": "Summon Ọbà (Orisha of Strategy)",
+                    "next": "fail_03",
+                    "battle_points": -5
+                }
+            ]
+        },
+        "04": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "Ìbùkún àwọn baba ń bẹ! Mo fi àwọn èèmọ́ ránṣẹ́ sí ọ!",
+            "translation": "The ancestors will judge you! I summon the spirits of old!",
+            "scene_description": "Ghostly ancestors rise from the ground, their voices echoing ancient wisdom.",
+            "scene_image": "spirit_judgment.png",
+            "scene_audio": "ancestral_chants.mp3",
+            "options": [
+                {
+                    "text": "Pe Òrúnmìlà",
+                    "translation": "Summon Òrúnmìlà (Orisha of Wisdom and Divination)",
+                    "next": "05",
+                    "battle_points": 10
+                },
+                {
+                    "text": "Pe Ọbàtálá",
+                    "translation": "Summon Ọbàtálá (Orisha of Purity and Leadership)",
+                    "next": "05",
+                    "battle_points": 5
+                },
+                {
+                    "text": "Pe Ṣàngó",
+                    "translation": "Summon Ṣàngó (Orisha of Thunder and Fire)",
+                    "next": "fail_04",
+                    "battle_points": -5
+                },
+                {
+                    "text": "Pe Erinlẹ̀",
+                    "translation": "Summon Erinlẹ̀ (Orisha of the Hunt)",
+                    "next": "fail_04",
+                    "battle_points": -5
+                }
+            ]
+        },
+        "05": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "Ẹ̀mí ayé gbọ́ mi! Ẹ gbà agbára ayé kọ!",
+            "translation": "Spirits of the world, reject the balance!",
+            "scene_description": "The ground trembles violently, threatening to swallow Ọmọtẹmi whole.",
+            "scene_image": "earthquake.png",
+            "scene_audio": "rumbling_earth.mp3",
+            "options": [
+                {
+                    "text": "Pe Ògún",
+                    "translation": "Summon Ògún (Orisha of War and Earthly Might)",
+                    "next": "06",
+                    "battle_points": 10
+                },
+                {
+                    "text": "Pe Olókun",
+                    "translation": "Summon Olókun (Orisha of the Deep Ocean)",
+                    "next": "06",
+                    "battle_points": 5
+                },
+                {
+                    "text": "Pe Ọya",
+                    "translation": "Summon Ọya (Orisha of Winds)",
+                    "next": "fail_05",
+                    "battle_points": -5
+                },
+                {
+                    "text": "Pe Yemoja",
+                    "translation": "Summon Yemoja (Orisha of Motherhood and Water)",
+                    "next": "fail_05",
+                    "battle_points": -5
+                }
+            ]
+        },
+        "06": {
+            "speaker": "Rogue Ifá Priest",
+            "text": "Mo yóò dá iná pẹ̀lú oró! Oró yóò jà ọ lọ́rùn!",
+            "translation": "I shall burn you with sacred fire! The flames will consume you!",
+            "scene_description": "Sacred fire erupts, surrounding the battlefield.",
+            "scene_image": "firestorm.png",
+            "scene_audio": "roaring_flames.mp3",
+            "options": [
+                {
+                    "text": "Pe Ṣàngó",
+                    "translation": "Summon Ṣàngó (Orisha of Thunder and Fire)",
+                    "next": "07",
+                    "battle_points": 10
+                },
+                {
+                    "text": "Pe Yemoja",
+                    "translation": "Summon Yemoja (Orisha of Water)",
+                    "next": "07",
+                    "battle_points": 5
+                },
+                {
+                    "text": "Pe Òrúnmìlà",
+                    "translation": "Summon Òrúnmìlà (Orisha of Wisdom)",
+                    "next": "fail_06",
+                    "battle_points": -5
+                },
+                {
+                    "text": "Pe Olókun",
+                    "translation": "Summon Olókun (Orisha of Deep Waters)",
+                    "next": "fail_06",
+                    "battle_points": -5
+                }
+            ]
+        },
+           "07": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Ojú ọ̀run kò ní rọ̀ mọ́! Mo yóò fi ògún àyíká gbẹ́ ọ!",
+        "translation": "The heavens will close upon you! I will shroud you in endless darkness!",
+        "scene_description": "A thick, supernatural darkness descends, swallowing all light.",
+        "scene_image": "eternal_darkness.png",
+        "scene_audio": "darkness_spreading.mp3",
+        "options": [
+            {
+                "text": "Pe Òsanyìn",
+                "translation": "Summon Òsanyìn (Orisha of Knowledge and Secrets)",
+                "next": "08",
+                "battle_points": 10
+            },
+            {
+                "text": "Pe Ọbàtálá",
+                "translation": "Summon Ọbàtálá (Orisha of Light and Clarity)",
+                "next": "08",
+                "battle_points": 5
+            },
+            {
+                "text": "Pe Ṣàngó",
+                "translation": "Summon Ṣàngó (Orisha of Thunder and Fire)",
+                "next": "fail_07",
+                "battle_points": -5
+            },
+            {
+                "text": "Pe Erinlẹ̀",
+                "translation": "Summon Erinlẹ̀ (Orisha of the Hunt)",
+                "next": "fail_07",
+                "battle_points": -5
+            }
+        ]
+    },
+    "08": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Mo dá omi ànírígbẹ̀yìn! Ọ̀pọ̀lọpọ̀ omi yóò tán agbára rẹ!",
+        "translation": "I summon the unrelenting flood! The endless waters will drown your strength!",
+        "scene_description": "Massive waves crash, threatening to wash Ọmọtẹmi away.",
+        "scene_image": "great_flood.png",
+        "scene_audio": "raging_tides.mp3",
+        "options": [
+            {
+                "text": "Pe Olókun",
+                "translation": "Summon Olókun (Orisha of the Deep Ocean)",
+                "next": "09",
+                "battle_points": 10
+            },
+            {
+                "text": "Pe Yemoja",
+                "translation": "Summon Yemoja (Orisha of Waters and Protection)",
+                "next": "09",
+                "battle_points": 5
+            },
+            {
+                "text": "Pe Ògún",
+                "translation": "Summon Ògún (Orisha of War and Strength)",
+                "next": "fail_08",
+                "battle_points": -5
+            },
+            {
+                "text": "Pe Ọya",
+                "translation": "Summon Ọya (Orisha of Winds)",
+                "next": "fail_08",
+                "battle_points": -5
+            }
+        ]
+    },
+    "09": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Mò dì íwọ nínú wàhálà ayé! Ìkà yóò pa ẹ jù agbára!",
+        "translation": "I bind you in the struggles of the world! Cruelty will break you beyond power!",
+        "scene_description": "Chains of suffering manifest, attempting to trap Ọmọtẹmi.",
+        "scene_image": "binding_chains.png",
+        "scene_audio": "chains_clanking.mp3",
+        "options": [
+            {
+                "text": "Pe Èṣù",
+                "translation": "Summon Èṣù (Orisha of Paths and Freedom)",
+                "next": "10",
+                "battle_points": 10
+            },
+            {
+                "text": "Pe Ọbà",
+                "translation": "Summon Ọbà (Orisha of Sacrifice and Strategy)",
+                "next": "10",
+                "battle_points": 5
+            },
+            {
+                "text": "Pe Ṣàngó",
+                "translation": "Summon Ṣàngó (Orisha of Justice and Fire)",
+                "next": "fail_09",
+                "battle_points": -5
+            },
+            {
+                "text": "Pe Òsanyìn",
+                "translation": "Summon Òsanyìn (Orisha of Hidden Knowledge)",
+                "next": "fail_09",
+                "battle_points": -5
+            }
+        ]
+    },
+    "10": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Mo da agbára ayé yìí sílè! Ìwọ kò ní yege, ayé yóò gbẹ́ ọ!",
+        "translation": "I unleash the full force of the world! You will not prevail; the earth itself rejects you!",
+        "scene_description": "The battlefield shakes violently as raw elemental power erupts.",
+        "scene_image": "earth_unleashed.png",
+        "scene_audio": "earth_explosion.mp3",
+        "options": [
+            {
+                "text": "Pe Ògún",
+                "translation": "Summon Ògún (Orisha of Earth and War)",
+                "next": "11",
+                "battle_points": 10
+            },
+            {
+                "text": "Pe Òrúnmìlà",
+                "translation": "Summon Òrúnmìlà (Orisha of Wisdom)",
+                "next": "11",
+                "battle_points": 5
+            },
+            {
+                "text": "Pe Olókun",
+                "translation": "Summon Olókun (Orisha of the Ocean Depths)",
+                "next": "fail_10",
+                "battle_points": -5
+            },
+            {
+                "text": "Pe Ọbàtálá",
+                "translation": "Summon Ọbàtálá (Orisha of Purity)",
+                "next": "fail_10",
+                "battle_points": -5
+            }
+        ]
+    },
+    "11": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Báwo ni? Ìwọ kò lè borí ayé!",
+        "translation": "How? You cannot defeat fate!",
+        "scene_description": "The Rogue Ifá Priest, weakened but still defiant, raises his staff one last time.",
+        "scene_image": "final_stand.png",
+        "scene_audio": "fading_magic.mp3",
+        "options": [
+            {
+                "text": "Pe gbogbo Òrìṣà pọ!",
+                "translation": "Summon all the Orisha together!",
+                "next": "final_victory",
+                "battle_points": 20
+            },
+            {
+                "text": "Pe Ṣàngó",
+                "translation": "Summon Ṣàngó (Orisha of Thunder and Fire)",
+                "next": "fail_11",
+                "battle_points": -10
+            },
+            {
+                "text": "Pe Yemoja",
+                "translation": "Summon Yemoja (Orisha of Water and Protection)",
+                "next": "fail_11",
+                "battle_points": -10
+            },
+            {
+                "text": "Pe Ògún",
+                "translation": "Summon Ògún (Orisha of War)",
+                "next": "fail_11",
+                "battle_points": -10
+            }
+        ]
+    },
+    "final_victory": {
+        "speaker": "Rogue Ifá Priest",
+        "text": "Rárá! Ìwọ kò leṣe! Ìwọ kò le ṣàkóso!",
+        "translation": "No! This cannot be! You cannot command fate!",
+        "scene_description": "The combined power of the Orisha overwhelms the Rogue Ifá Priest, sealing his corruption away.",
+        "scene_image": "orisha_united.png",
+        "scene_audio": "divine_harmony.mp3",
+        "options": [
+            {
+                "text": "Gbé agbára àwọn Òrìṣà ga!",
+                "translation": "Raise the power of the Orisha high!",
+                "next": "end"
+            }
+        ]
+    }
+    }
+}

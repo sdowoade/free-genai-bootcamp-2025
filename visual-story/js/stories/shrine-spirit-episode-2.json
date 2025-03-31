@@ -1,0 +1,72 @@
+{
+    "id": "guardian-riddle",
+    "location": "Deep Shrine Corridor",
+    "start": "14",
+    "dialog": {
+        "14": {
+            "speaker": "Guardian Spirit",
+            "text": "Mo fẹ́ dán ọ wò. Kí ni ohun tí kò ní ẹsẹ̀, ṣùgbọ́n ó máa ń rìn; kò ní ahọn, ṣùgbọ́n ó máa ń sọ̀rọ̀?",
+            "translation": "I shall test you. What has no legs but walks, no tongue but speaks?",
+            "scene_description": "A ghostly figure floats before a massive stone door covered in glowing inscriptions.",
+            "scene_image": "shrine_guardian_riddle.png",
+            "scene_audio": "echoing_whispers.mp3",
+            "options": [
+                {
+                    "text": "Òpó omi",
+                    "translation": "A river",
+                    "next": "correct_answer",
+                    "score": 10
+                },
+                {
+                    "text": "Òpó ewé",
+                    "translation": "A tree",
+                    "next": "fail",
+                    "score": 5
+                },
+                {
+                    "text": "Òpó ẹja",
+                    "translation": "A fish",
+                    "next": "fail",
+                    "score": 5
+                },
+                {
+                    "text": "Òpó iná",
+                    "translation": "Fire",
+                    "next": "fail",
+                    "score": 5
+                }
+            ],
+            "life_spirit_hint": "Think of something that moves without feet and carries messages without a tongue."
+        },
+        "correct_answer": {
+            "speaker": "Guardian Spirit",
+            "text": "O ti tọ̀nà! Ẹlẹ́rìí ìmọ̀ ni ọ. Jáde síwájú.",
+            "translation": "You have answered wisely! You are a seeker of knowledge. Proceed.",
+            "scene_description": "The inscriptions on the door pulse and fade as it slowly opens.",
+            "scene_image": "shrine_door_opening.png",
+            "scene_audio": "stone_grinding.mp3"
+        },
+        "fail": {
+            "speaker": "Guardian Spirit",
+            "text": "Ìdáhùn rẹ kì í tọ̀nà. Ṣé o fẹ́ gbìyànjú mìíràn?",
+            "translation": "Your answer is incorrect. Would you like to try again?",
+            "scene_description": "The shrine trembles slightly, as if rejecting the response.",
+            "scene_image": "shrine_door_locked.png",
+            "scene_audio": "ominous_rumble.mp3",
+            "options": [
+                {
+                    "text": "Bẹẹni, jẹ kí n tún gbìyànjú.",
+                    "translation": "Yes, let me try again.",
+                    "next": "14",
+                    "score": 0
+                },
+                {
+                    "text": "Rárá, mo fi í silẹ.",
+                    "translation": "No, I give up.",
+                    "next": "game_over",
+                    "score": -5
+                }
+            ]
+        }
+    }
+}
