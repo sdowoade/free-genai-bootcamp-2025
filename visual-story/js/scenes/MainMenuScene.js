@@ -22,7 +22,7 @@ class MainMenuScene extends Scene {
         const title = new PIXI.Text("Orisha's Quest", {
             fontFamily: 'Arial',
             fontSize: 64,
-            fill: 0xffffff,
+            fill: 0x00FFFF,
             align: 'center'
         });
         title.anchor.set(0.5);
@@ -34,7 +34,7 @@ class MainMenuScene extends Scene {
         const buttonStyle = {
             fontFamily: 'Arial',
             fontSize: 32,
-            fill: 0xffffff,
+            fill: 0x00FFFF,
             align: 'center'
         };
 
