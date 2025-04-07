@@ -1,5 +1,8 @@
 {
-    "epilogue": {
+    "id": "epilogue",
+    "location": "Spirit Realm",
+    "start": "narrator",
+    "dialog": {
         "narrator": {
             "text": [
                 "The storm has passed. The ground, once trembling with power, now lies still beneath Ọmọtẹmi’s feet. The last echoes of the Rogue Ifá Priest’s defiance fade into the wind, leaving only silence.",
@@ -17,7 +20,7 @@
                 "And Ọmọtẹmi is ready."
             ],
             "scene_description": "The village celebrates, the land heals, and the Orisha temples are restored. But from the heavens, Òbàtálá’s voice reminds Ọmọtẹmi that her journey is far from over.",
-            "scene_image": "restored_village_festival.png",
+            "scene_image": "end.png",
             "scene_audio": "peaceful_reunion.mp3"
         }
     }

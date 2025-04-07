@@ -1,6 +1,10 @@
 {
-    "prologue": {
-        "narrator": {
+    "id": "prologue",
+    "location": "Spirit Realm",
+    "start": "prologue",
+    "dialog": {
+        "prologue": {
+            "speaker": "Narrator",
             "text": [
                 "Ọmọtẹmi awakens to an endless expanse of swirling mist. The ground beneath her feet is neither earth nor air, yet it holds her firmly. She breathes in, and the air is thick with something unfamiliar—power, ancient and boundless.",
                 "She does not remember how she arrived here. The last thing she recalls is… nothing. A void where her memories should be.",
@@ -9,11 +13,11 @@
             ],
             "scene_description": "A boundless, misty void where time feels nonexistent. Ethereal lights flicker as something ancient stirs.",
             "scene_image": "spirit_realm_awakening.png",
-            "scene_audio": "whispers_of_the_spirit.mp3"
-        }
-    },
-    "life_spirit_intro": {
-        "narrator": {
+            "scene_audio": "whispers_of_the_spirit.mp3",
+            "next": "life_spirit_intro"
+        },
+        "life_spirit_intro": {
+            "speaker": "Narrator",
             "text": [
                 "‘Ọmọtẹmi…’ the voice calls, not from the mist, not from the light, but from within her own soul.",
                 "‘You are awake at last. You have crossed the veil that separates your world from the unseen. You stand at the threshold of fate.’",
@@ -26,11 +30,11 @@
             ],
             "scene_description": "The Life Spirit appears as a floating light, merging into Ọmọtẹmi as she accepts her destiny. Visions of her journey flicker in the mist.",
             "scene_image": "life_spirit_merging.png",
-            "scene_audio": "ethereal_guidance.mp3"
-        }
-    },
-    "obatala_calling": {
-        "narrator": {
+            "scene_audio": "ethereal_guidance.mp3",
+            "next": "obatala_calling"
+        },
+        "obatala_calling": {
+            "speaker": "Narrator",
             "text": [
                 "A deep, resonant voice cuts through the mist, rich and powerful, yet kind.",
                 "‘Ọmọtẹmi… come to me.’",
@@ -40,8 +44,10 @@
                 "‘Follow the path, Ọmọtẹmi. Your journey begins now.’"
             ],
             "scene_description": "The voice of Òbàtálá echoes through the Spirit World, calling Ọmọtẹmi forward. A path of pure white stone materializes before her.",
-            "scene_image": "obatala_path_revealed.png",
-            "scene_audio": "divine_calling.mp3"
+            "scene_image": "obatala_calling.png",
+            "scene_audio": "divine_calling.mp3",
+            "next": false,
+            "goto": "obatala-encounter-episode-1.json"
         }
     }
 }

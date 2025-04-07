@@ -31,7 +31,7 @@
             "text": "Dára, ìrìn àjò yìí ń gbà agbára àti ìmò. Ṣé o l’ọkàn balẹ?",
             "translation": "Good, this journey requires strength and wisdom. Do you have a calm heart?",
             "scene_description": "Ọbàtálá steps closer, his presence filling the grove with a calming aura.",
-            "scene_image": "obatala_speaking.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "gentle_breeze.mp3",
             "options": [
                 {
@@ -54,7 +54,7 @@
             "text": "Ìbẹ̀rù rẹ ló dára, sugbon gbó: Ọ̀nà yìí kún fún àbẹ̀wò àti ìmò. Ṣé o ṣetan?",
             "translation": "Your fear is natural, but listen: This path is full of revelations and wisdom. Are you ready?",
             "scene_description": "Ọbàtálá’s eyes glow softly as a breeze rustles through the sacred grove.",
-            "scene_image": "obatala_watching.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "rustling_leaves.mp3",
             "options": [
                 {
@@ -77,13 +77,14 @@
             "text": "Igbagbo rẹ ni yóò fi ọ siwaju. Bayi, lọ si Ọba Adéwálé, ki o fi ifiranṣẹ mi ranṣẹ.",
             "translation": "Your faith will guide you. Now, go to King Adéwálé and deliver my message.",
             "scene_description": "Ọbàtálá raises his hand, and a soft glow surrounds you as you prepare to leave.",
-            "scene_image": "obatala_blessing.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "divine_light.mp3",
             "options": [
                 {
                     "text": "Mo dupe, Baba Ọbàtálá.",
                     "translation": "Thank you, Father Ọbàtálá.",
-                    "next": "end_of_dialogue",
+                    "next": false,
+                    "goto": "oba-palace-episode-1.json",
                     "score": 10
                 }
             ],
@@ -94,7 +95,7 @@
             "text": "Ìpinnu rẹ ṣe pataki. Ṣé o le gbẹkẹle ara rẹ?",
             "translation": "Your decision is important. Can you trust yourself?",
             "scene_description": "Ọbàtálá watches you closely, waiting for your answer.",
-            "scene_image": "obatala_questioning.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "soft_wind.mp3",
             "options": [
                 {
@@ -117,7 +118,7 @@
             "text": "Ìmò je ohun pataki. Sugbon ma jìya fun ìdẹwò.",
             "translation": "Knowledge is important, but do not suffer from hesitation.",
             "scene_description": "A gentle wind sweeps through the grove, carrying whispers of wisdom.",
-            "scene_image": "obatala_wisdom.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "whispering_winds.mp3",
             "options": [
                 {

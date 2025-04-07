@@ -7,7 +7,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi arrives at Yemoja’s temple, a serene oasis where water flows endlessly. The air is cool, and the sound of waves echoes in the distance. In the center of a vast pool, Yemoja emerges, her form shifting like the tide, her eyes deep as the ocean.",
             "scene_description": "Yemoja stands waist-deep in the sacred waters, her long flowing garments merging with the waves.",
-            "scene_image": "yemoja_sanctuary.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "gentle_waves.mp3",
             "options": [
                 {
@@ -36,7 +36,7 @@
             "text": "Ọmọtẹmi, omi ni mo jẹ́. Mo ṣàn láàrin ayé. Ṣé o mọ bí a ti ń tọ omi?",
             "translation": "Ọmọtẹmi, I am the waters. I flow between worlds. Do you know how to follow the river?",
             "scene_description": "Yemoja raises her hands, and three sacred vessels appear before Ọmọtẹmi, each one holding a different liquid.",
-            "scene_image": "yemoja_vessels.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "water_rippling.mp3",
             "options": [
                 {
@@ -59,7 +59,7 @@
             "text": "Ẹ̀kan nínú wọn ni òtítọ́, ìyókù ni ẹ̀tàn. Yan lórí ìmọ̀ rẹ.",
             "translation": "One of these holds truth, the others are deception. Choose based on your wisdom.",
             "scene_description": "The three vessels glow faintly. One contains clear water, another a dark liquid, and the last one shimmers with an unknown essence.",
-            "scene_image": "yemoja_three_vessels.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "mystic_water.mp3",
             "options": [
                 {
@@ -88,7 +88,7 @@
             "text": "O ti yan dára, ṣùgbọ́n ìgbà kẹrin yóò ṣe ìdánwò rẹ.",
             "translation": "You have chosen well, but the final test awaits.",
             "scene_description": "Yemoja steps forward, and the water around Ọmọtẹmi rises, surrounding her.",
-            "scene_image": "yemoja_final_test.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "rising_tide.mp3",
             "options": [
                 {
@@ -111,7 +111,7 @@
             "text": "Ìwọ ti rí ìmọ̀, ṣùgbọ́n nísinsìnyí, mo béèrè fún ìrubọ kan. Kí ni ìwọ yóò fi fún omi?",
             "translation": "You have shown wisdom, but now I ask for an offering. What will you give to the waters?",
             "scene_description": "The river calms, and Yemoja’s eyes shine with expectation.",
-            "scene_image": "yemoja_sacrifice.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "soft_waves.mp3",
             "options": [
                 {
@@ -140,55 +140,55 @@
             "text": "Ìwọ ti kọ́ni nípa ìrúbọ. Ọkàn rẹ yóò jẹ́ apá kan ti omi. Mo fi ìbùkún mi fún ọ.",
             "translation": "You have learned the meaning of sacrifice. Your soul will be part of the waters. I grant you my blessing.",
             "scene_description": "Yemoja places her hands on Ọmọtẹmi’s head, and the water glows with divine energy.",
-            "scene_image": "yemoja_blessing.png",
+            "scene_image": "yemoja_meet.png",
             "scene_audio": "divine_waves.mp3",
             "options": [
                 {
                     "text": "Mo dúpẹ́! Yemoja!",
                     "translation": "I am grateful! Yemoja!",
-                    "next": "victory",
+                    "next": false,
+                    "goto": "final-preparations-episode-4.json",
                     "score": 10
                 }
             ]
         },
         "hidden_path": {
-    "speaker": "Yemoja",
-    "text": "O yan omi tí ó nsán lójú. Ọpọlọpọ fẹ́ràn òtítọ́ títọ́, ṣùgbọ́n ìwọ yan ohun tí ó ṣòro láti yé. Ṣé o ní igboya láti gbà mí lóye?",
-    "translation": "You chose the shimmering liquid. Many prefer pure truth, but you chose what is difficult to understand. Do you have the courage to accept my wisdom?",
-    "scene_description": "The liquid transforms into a radiant glow, surrounding Ọmọtẹmi with a vision of the past and future.",
-    "scene_image": "yemoja_vision.png",
-    "scene_audio": "mystic_chant.mp3",
-    "options": [
-        {
-            "text": "Mo pa ara mi mọ́, mo gbọ́ ohun tí ó wà nínú ojú omi.",
-            "translation": "I remain still and listen to the message in the water.",
-            "next": "hidden_revelation",
-            "score": 15
+            "speaker": "Yemoja",
+            "text": "O yan omi tí ó nsán lójú. Ọpọlọpọ fẹ́ràn òtítọ́ títọ́, ṣùgbọ́n ìwọ yan ohun tí ó ṣòro láti yé. Ṣé o ní igboya láti gbà mí lóye?",
+            "translation": "You chose the shimmering liquid. Many prefer pure truth, but you chose what is difficult to understand. Do you have the courage to accept my wisdom?",
+            "scene_description": "The liquid transforms into a radiant glow, surrounding Ọmọtẹmi with a vision of the past and future.",
+            "scene_image": "yemoja_meet.png",
+            "scene_audio": "mystic_chant.mp3",
+            "options": [
+                {
+                    "text": "Mo pa ara mi mọ́, mo gbọ́ ohun tí ó wà nínú ojú omi.",
+                    "translation": "I remain still and listen to the message in the water.",
+                    "next": "hidden_revelation",
+                    "score": 15
+                },
+                {
+                    "text": "Mo gbìyànjú láti mú omi náà pẹ̀lú mi.",
+                    "translation": "I try to take the shimmering water with me.",
+                    "next": "fail_03",
+                    "score": 0
+                }
+            ],
+            "life_spirit_hint": "Some truths are meant to be heard, not possessed."
         },
-        {
-            "text": "Mo gbìyànjú láti mú omi náà pẹ̀lú mi.",
-            "translation": "I try to take the shimmering water with me.",
-            "next": "fail_03",
-            "score": 0
+        "hidden_revelation": {
+            "speaker": "Narrator",
+            "text": "As Ọmọtẹmi listens, the water whispers forgotten secrets of the Orisha. She gains a rare insight into the balance of the elements, a wisdom that may turn the tide of the coming battle.",
+            "scene_description": "A vision unfolds, revealing the connection between the elements and the Orisha’s fate.",
+            "scene_image": "yemoja_meet.png",
+            "scene_audio": "divine_whisper.mp3",
+            "options": [
+                {
+                    "text": "Mo ṣe ìdánilójú pé mo máa lò ìmọ̀ yìí dára.",
+                    "translation": "I promise to use this knowledge wisely.",
+                    "next": "06",
+                    "score": 20
+                }
+            ]
         }
-    ],
-    "life_spirit_hint": "Some truths are meant to be heard, not possessed."
-},
-"hidden_revelation": {
-    "speaker": "Narrator",
-    "text": "As Ọmọtẹmi listens, the water whispers forgotten secrets of the Orisha. She gains a rare insight into the balance of the elements, a wisdom that may turn the tide of the coming battle.",
-    "scene_description": "A vision unfolds, revealing the connection between the elements and the Orisha’s fate.",
-    "scene_image": "vision_of_elements.png",
-    "scene_audio": "divine_whisper.mp3",
-    "options": [
-        {
-            "text": "Mo ṣe ìdánilójú pé mo máa lò ìmọ̀ yìí dára.",
-            "translation": "I promise to use this knowledge wisely.",
-            "next": "06",
-            "score": 20
-        }
-    ]
-}
-
     }
 }

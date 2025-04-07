@@ -8,7 +8,7 @@
             "text": "Ta ló dé? Tani ẹ?",
             "translation": "Who arrives? Who are you?",
             "scene_description": "Ọba Adéwálé sits on his throne, surrounded by village elders. The grand hall is dimly lit by torches, and the tension is thick as the messenger arrives.",
-            "scene_image": "oba_palace_throne_room.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "messenger_arrival.mp3",
             "options": [
                 {
@@ -31,7 +31,7 @@
             "text": "Ifiranṣẹ wo? Ta ló rán ẹ?",
             "translation": "What message? Who sent you?",
             "scene_description": "The elders murmur among themselves, casting suspicious glances at Ọmọtẹmi.",
-            "scene_image": "oba_palace_council.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "murmuring_elders.mp3",
             "options": [
                 {
@@ -54,7 +54,7 @@
             "text": "Ọbàtálá? Gbogbo wa ti ro pé àwọn Orisha ti sọnù patapata.",
             "translation": "Ọbàtálá? We all thought the Orisha were lost forever.",
             "scene_description": "Shock and disbelief fill the air as the elders whisper in hushed voices.",
-            "scene_image": "elders_shocked.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "gasps_of_surprise.mp3",
             "options": [
                 {
@@ -77,7 +77,7 @@
             "text": "Kí ló wà nínú ifiranṣẹ wọn?",
             "translation": "What is their message?",
             "scene_description": "Ọba Adéwálé leans forward, eyes narrowing as he waits for the message.",
-            "scene_image": "oba_listening.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "suspenseful_pause.mp3",
             "options": [
                 {
@@ -100,10 +100,9 @@
             "text": "Àwọn àgbà, ẹ gbọ́ ohun tí Ọbàtálá sọ.",
             "translation": "Elders, hear what Ọbàtálá has said.",
             "scene_description": "The elders nod solemnly, recognizing the gravity of the message.",
-            "scene_image": "elders_nodding.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "elders_murmur_agreement.mp3",
-            "options": [
-            ],
+            "next": "06",
             "life_spirit_hint": "Encourage unity and preparation. The people must act together."
         },
         "06": {
@@ -111,7 +110,7 @@
             "text": "Ọmọtẹmi, ifiranṣẹ yìí ṣe pataki púpọ̀. Ṣé o mọ ohun tí ó tumọ sí?",
             "translation": "Ọmọtẹmi, this message is very important. Do you understand what it means?",
             "scene_description": "The throne room is tense as the elders look between Ọba Adéwálé and Ọmọtẹmi, waiting for an explanation.",
-            "scene_image": "oba_palace_serious.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "serious_tone.mp3",
             "options": [
                 {
@@ -140,19 +139,21 @@
             "text": "Ìjà ni àyanfà. Ṣùgbọ́n, ta ló lè jùbà ibi tó ń bọ̀?",
             "translation": "War may be the only choice. But who can stand against the coming darkness?",
             "scene_description": "The elders murmur anxiously as the air grows heavy with worry.",
-            "scene_image": "oba_worried.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "ominous_drums.mp3",
             "options": [
                 {
                     "text": "A le ko àwọn jagunjagun jọ!",
                     "translation": "We can rally the warriors!",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "obatala-encounter-episode-2.json",
                     "score": 10
                 },
                 {
                     "text": "A gbọdọ gbadura fun hidaya",
                     "translation": "We must pray for guidance.",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "obatala-encounter-episode-2.json",
                     "score": 5
                 }
             ],
@@ -163,7 +164,7 @@
             "text": "Ṣugbọn, Ọbàtálá ti fi ifiranṣẹ ranṣẹ. Ṣé a gbọdọ wá àlàyé sí i?",
             "translation": "But, Ọbàtálá has already sent a message. Do we need further clarification?",
             "scene_description": "The elders exchange glances, unsure whether they should delay action.",
-            "scene_image": "elders_confused.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "uncertainty.mp3",
             "options": [
                 {
@@ -186,7 +187,7 @@
             "text": "Ó dara, mo fi ipa ranṣẹ sí ọ. Ṣé o le fi ara rẹ fun ìpinnu yìí?",
             "translation": "Very well, I entrust you with this task. Can you dedicate yourself to this mission?",
             "scene_description": "Ọba Adéwálé’s gaze is firm as he awaits Ọmọtẹmi’s response.",
-            "scene_image": "oba_stern.png",
+            "scene_image": "oba_palace.png",
             "scene_audio": "decision_time.mp3",
             "options": [
                 {

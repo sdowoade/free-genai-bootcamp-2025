@@ -8,7 +8,7 @@
             "text": "As the guardian spirit fades, the great stone doors groan open, revealing a vast chamber filled with ancient carvings and forgotten relics.",
             "translation": "As the guardian spirit fades, the great stone doors groan open, revealing a vast chamber filled with ancient carvings and forgotten relics.",
             "scene_description": "Dim torchlight flickers across the walls, illuminating intricate Yoruba symbols and artifacts. In the center, a raised pedestal glows with mysterious energy.",
-            "scene_image": "shrine_inner_chamber.png",
+            "scene_image": "shrine_chamber.png",
             "scene_audio": "deep_rumble.mp3",
             "options": [
                 {
@@ -24,10 +24,11 @@
             "text": "As Ọmọtẹmi nears the pedestal, the air grows heavy. A golden artifact rests at the center, pulsing with power. It hums as if recognizing her presence.",
             "translation": "As Ọmọtẹmi nears the pedestal, the air grows heavy. A golden artifact rests at the center, pulsing with power. It hums as if recognizing her presence.",
             "scene_description": "The artifact glows brighter, as though awaiting her decision.",
-            "scene_image": "shrine_glowing_pedestal.png",
+            "scene_image": "shrine_chamber.png",
             "scene_audio": "low_resonance.mp3",
-            "life_spirit_hint": "We have to take this back to Ogun"
-
+            "life_spirit_hint": "We have to take this back to Ogun",
+            "next": false,
+            "goto": "return-to-ogun-episode-2.json"
         }
     }
 }

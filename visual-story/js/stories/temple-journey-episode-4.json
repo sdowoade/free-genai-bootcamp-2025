@@ -13,13 +13,15 @@
                 {
                     "text": "Mo máa kó sílé Ṣàngó. Ògún la ti máa fi yan àkànṣe.",
                     "translation": "I will go to Ṣàngó. Strength must carve the path forward.",
-                    "next": "sango_temple",
+                    "next": false,
+                    "goto": "sango-trial-episode-4.json",
                     "score": 10
                 },
                 {
                     "text": "Mo máa lo sí Yemoja. Òye ati ìbùkún ni mo fẹ.",
                     "translation": "I will go to Yemoja. Wisdom and blessing are what I seek.",
-                    "next": "yemoja_temple",
+                    "next": false,
+                    "goto": "yemoja-trial-episode-4.json",
                     "score": 10
                 },
                 {
@@ -40,13 +42,15 @@
                 {
                     "text": "Ṣàngó kò ní dúró. Mo máa kó sí ibẹ̀ nísisìyí!",
                     "translation": "Ṣàngó will not wait. I must go there now!",
-                    "next": "sango_temple",
+                    "next": false,
+                    "goto": "sango-trial-episode-4.json",
                     "score": 10
                 },
                 {
                     "text": "Yemoja ni òtítọ́ wa. Mo máa wá àsìkò sí Yemoja.",
                     "translation": "Yemoja is our truth. I will take time for Yemoja.",
-                    "next": "yemoja_temple",
+                    "next": false,
+                    "goto": "yemoja-trial-episode-4.json",
                     "score": 10
                 }
             ]

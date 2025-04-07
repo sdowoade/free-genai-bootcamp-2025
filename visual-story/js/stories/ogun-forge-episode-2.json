@@ -31,7 +31,7 @@
             "text": "Ìjọba òkùnkùn ń dẹ́ wa dúró. Ṣugbọn kì í ṣe nípa agbara nìkan ni a fi ń ṣẹ́gun. Ṣé o setan láti fi ọpọlọ loògùn?",
             "translation": "The dark forces block our path. But victory is not through strength alone. Are you ready to use wisdom as your weapon?",
             "scene_description": "Ògún halts his hammering and looks at Ọmọtẹmi with piercing eyes, as if weighing her soul.",
-            "scene_image": "ogun_staring.png",
+            "scene_image": "ogun_forge.png",
             "scene_audio": "metal_clang.mp3",
             "options": [
                 {
@@ -54,7 +54,7 @@
             "text": "Ó dára. Ìṣòro kan wà. Ìtàn ti sọnu. Ìwọ gbọdọ wá òwe atijọ́ tó fi ìmọ̀ yìí pamọ́.",
             "translation": "Good. But there is a problem. The knowledge has been lost. You must uncover the ancient proverbs that hold this wisdom.",
             "scene_description": "Ògún gestures towards a stone tablet covered in cryptic Yoruba inscriptions, glowing faintly.",
-            "scene_image": "ogun_tablet.png",
+            "scene_image": "ogun_forge.png",
             "scene_audio": "mystical_rumble.mp3",
             "options": [
                 {
@@ -71,7 +71,7 @@
             "text": "Agbara rẹ yóò ní idanwo. Ṣùgbọ́n ìmọ̀ jẹ́ ọ̀wọ́kànsí. Nígbà tó bá gbọ́ àdánù yóò jẹ?",
             "translation": "Your strength will be tested. But knowledge is key. When brute force fails, what will you do?",
             "scene_description": "Ògún slams his hammer down, causing the ground to tremble as a trial begins.",
-            "scene_image": "ogun_trial.png",
+            "scene_image": "ogun_forge.png",
             "scene_audio": "battle_drums.mp3",
             "options": [
                 {
@@ -94,19 +94,21 @@
             "text": "Lo sí ibi ìsìn àtijọ́, ibi tí àwọn òrìṣà ti fi ìmọ̀ pamọ́. Ṣùgbọ́n ṣọ́ra, àwọn jàǹdùkú ń wá ìpa rẹ.",
             "translation": "Go to the ancient shrine, where the Orisha hid their knowledge. But be careful, bandits seek its power too.",
             "scene_description": "Ògún nods, handing Ọmọtẹmi a map to the shrine hidden deep in the forest.",
-            "scene_image": "ogun_map.png",
+            "scene_image": "ogun_forge.png",
             "scene_audio": "map_unfurl.mp3",
             "options": [
                 {
                     "text": "Mo máa lọ sí ibẹ̀ ní kíákíá!",
                     "translation": "I will go there immediately!",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "shrine-episode-2.json",
                     "score": 10
                 },
                 {
                     "text": "Ṣé kò sí ọna míràn?",
                     "translation": "Is there no other way?",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "shrine-episode-2.json",
                     "score": 7
                 }
             ],

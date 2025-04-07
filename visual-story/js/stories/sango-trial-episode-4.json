@@ -7,7 +7,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi steps into the shrine, and at once, the air crackles with electricity. Thunder rumbles in the distance as the storm god’s presence looms. Before her, a corridor of shifting lightning awaits.",
             "scene_description": "The walls pulse with red-hot energy, and flashes of lightning strike unpredictably. The path ahead is dangerous and unrelenting.",
-            "scene_image": "sango_lightning_path.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "thunder_rumble.mp3",
             "options": [
                 {
@@ -20,7 +20,7 @@
                     "text": "Kò sí àkókò fí mi nì. Mo máa sare kọjá.",
                     "translation": "There is no time to waste. I will rush through!",
                     "next": "fail_01",
-                    "score": 5
+                    "score": -25
                 },
                 {
                     "text": "Mo máa fi agbara mi lo. Ṣàngó kò ní ṣàkóbá fún ẹni tó lagbara.",
@@ -35,7 +35,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi carefully watches the lightning’s rhythm and finds the safest moments to move. She dashes between the strikes, reaching the other side unharmed.",
             "scene_description": "She breathes heavily, but she has proven her patience and awareness.",
-            "scene_image": "sango_safe_zone.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "relieved_sigh.mp3",
             "options": [
                 {
@@ -50,7 +50,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi braces herself and pushes forward with sheer determination. The lightning strikes dangerously close, but she withstands the heat and force.",
             "scene_description": "Her body tingles with the energy of Ṣàngó’s storm, but she does not falter.",
-            "scene_image": "sango_energy.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "electric_surround.mp3",
             "options": [
                 {
@@ -65,7 +65,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi rushes ahead without planning, and the lightning strikes her with full force. She collapses to the ground, dazed and in pain.",
             "scene_description": "The storm rejects the reckless. This is a painful lesson.",
-            "scene_image": "sango_failure.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "thunder_crash.mp3",
             "options": [
                 {
@@ -80,7 +80,7 @@
             "speaker": "Narrator",
             "text": "As Ọmọtẹmi reaches the inner sanctum, flames roar from towering pillars. The heat is unbearable, but she must prove her endurance.",
             "scene_description": "The fire blazes, and the only way forward is through it.",
-            "scene_image": "sango_fire_pillars.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "fire_crackle.mp3",
             "options": [
                 {
@@ -108,13 +108,14 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi kneels and utters a prayer to Ṣàngó. The flames soften, bending in recognition of her connection to the storm god.",
             "scene_description": "She walks through unharmed, the fire swirling gently around her.",
-            "scene_image": "sango_purified_fire.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "fire_whoosh.mp3",
             "options": [
                 {
                     "text": "Mo ṣetan fún ipari idánwò yìí.",
                     "translation": "I am ready for the final trial.",
-                    "next": "07",
+                    "next": false,
+                    "goto": "sango-final-episode-4.json",
                     "score": 10
                 }
             ]
@@ -123,13 +124,14 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi clenches her fists and pushes forward. The flames sear her skin, but she does not stop. She emerges, battered but victorious.",
             "scene_description": "Her breath is ragged, but she has proven her strength.",
-            "scene_image": "sango_battle_worn.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "heavy_breathing.mp3",
             "options": [
                 {
                     "text": "Mo ṣetan fún ipari idánwò yìí.",
                     "translation": "I am ready for the final trial.",
-                    "next": "07",
+                    "next": false,
+                    "goto": "sango-final-episode-4.json",
                     "score": 8
                 }
             ]
@@ -138,7 +140,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi hesitates, searching for another way, but the flames only grow stronger. The hesitation is punished, and she stumbles back, weakened.",
             "scene_description": "There is no escape. She must go through the trial, or fail.",
-            "scene_image": "sango_no_escape.png",
+            "scene_image": "sango_shrine.png",
             "scene_audio": "fire_roar.mp3",
             "options": [
                 {

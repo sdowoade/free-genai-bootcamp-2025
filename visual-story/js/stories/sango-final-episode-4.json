@@ -7,7 +7,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi steps into the heart of Ṣàngó’s shrine. The air is thick with the scent of fire and ozone. Above her, storm clouds swirl violently, and in the center of the chamber, a massive figure of pure lightning and flame takes form.",
             "scene_description": "Ṣàngó stands before Ọmọtẹmi, his fiery eyes locked onto her, his ax crackling with energy. The shrine shakes with his power.",
-            "scene_image": "sango_manifestation.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "thunder_clash.mp3",
             "options": [
                 {
@@ -36,7 +36,7 @@
             "text": "Iwọ ti wá síwájú mi, ṣugbọn kò sí ẹnikẹ́ni tó lè rí mi bí kò bá ni okàn tó lagbara. Ṣé o lè fi hàn pé o tọ̀na?",
             "translation": "You have come before me, but none can stand in my presence without a strong heart. Can you prove you are worthy?",
             "scene_description": "Ṣàngó raises his ax, and lightning strikes at Ọmọtẹmi’s feet.",
-            "scene_image": "sango_lightning_strike.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "thunder_blast.mp3",
             "options": [
                 {
@@ -65,7 +65,7 @@
             "text": "O ti fi ibà hàn, ó dára. Ṣùgbọ́n mo ní ìbéèrè kan fún ọ.",
             "translation": "You have shown respect, good. But I have a question for you.",
             "scene_description": "Ṣàngó lowers his ax slightly, considering Ọmọtẹmi’s gesture.",
-            "scene_image": "sango_contemplation.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "deep_rumble.mp3",
             "options": [
                 {
@@ -81,7 +81,7 @@
             "text": "Kí ló le dájú? Ẹ̀tàn àbùlà tí ó lè ṣù, tàbí ogun tí kò le fọ̀?",
             "translation": "Which is stronger? The deceptive storm that passes, or the war that cannot break?",
             "scene_description": "Ṣàngó’s voice booms like the rolling thunder, demanding wisdom and strength.",
-            "scene_image": "sango_judgment.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "storm_building.mp3",
             "options": [
                 {
@@ -104,13 +104,14 @@
             "text": "Ìwà àrà Òrìṣà wà nínú rẹ! Ṣàngó gbà ọ. Gbé ojú rẹ sókè, kí n fi ogun rẹ tọ́ ọ́.",
             "translation": "The spirit of the Orisha is within you! Ṣàngó accepts you. Lift your head, and I will guide your war.",
             "scene_description": "Ṣàngó strikes the ground, and the storm swirls around Ọmọtẹmi, filling her with renewed power.",
-            "scene_image": "sango_blessing.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "divine_lightning.mp3",
             "options": [
                 {
                     "text": "Mo dúpẹ́! Ṣàngó!",
                     "translation": "I am grateful! Ṣàngó!",
-                    "next": "victory",
+                    "next": false,
+                    "goto": "yemoja-trial-episode-4.json",
                     "score": 10
                 }
             ]
@@ -120,13 +121,14 @@
             "text": "Ó dára. O ti ye mi. Ṣùgbọ́n ṣàkíyèsí, ogun náà kò ní fi ọ́ sílẹ̀. Ṣíṣe lẹ́yìn ju kíkà lọ.",
             "translation": "Very well. You understand. But remember, the war will not leave you untouched. Action is greater than words.",
             "scene_description": "Ṣàngó nods, but his expression is stern.",
-            "scene_image": "sango_wise_warning.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "fading_thunder.mp3",
             "options": [
                 {
                     "text": "Mo gbà! Mo ṣetan fún idà mi.",
                     "translation": "I accept! I am ready for my blade.",
-                    "next": "victory",
+                                        "next": false,
+                    "goto": "yemoja-trial-episode-4.json",
                     "score": 8
                 }
             ]
@@ -135,7 +137,7 @@
             "speaker": "Narrator",
             "text": "Ọmọtẹmi tries to escape, but the shrine’s doors slam shut. Lightning strikes her down, and darkness consumes her.",
             "scene_description": "Ṣàngó does not grant favor to the cowardly.",
-            "scene_image": "sango_failure.png",
+            "scene_image": "sango_meet.png",
             "scene_audio": "thunder_crash.mp3",
             "options": [
                 {

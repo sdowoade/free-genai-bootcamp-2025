@@ -8,7 +8,7 @@
             "text": "Ọmọtẹmi, o ti ṣàbẹ̀wò sí Ọba Adéwálé. Kí ló ṣẹlẹ̀?",
             "translation": "Ọmọtẹmi, you have visited Ọba Adéwálé. What happened?",
             "scene_description": "The grove is quiet except for the rustling of leaves. Ọbàtálá stands before a glowing shrine, his presence calming yet powerful.",
-            "scene_image": "obatala_grove.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "forest_ambience.mp3",
             "options": [
                 {
@@ -37,7 +37,7 @@
             "text": "Ó dara. Ṣùgbọ́n à ń ní iṣoro. Àwọn agbára òkùnkùn ń dá wa dúró.",
             "translation": "That is good. But we face a great problem. A dark force is blocking us.",
             "scene_description": "A sudden gust of wind shakes the trees, as if nature itself is warning of a growing threat.",
-            "scene_image": "dark_forest.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "ominous_wind.mp3",
             "options": [
                 {
@@ -60,7 +60,7 @@
             "text": "Ìlú yìí yára bọ̀ sí ayé. Ṣùgbọ́n ọ̀nà wà, bí o bá ń ṣòro ọ̀rọ̀ pẹ̀lú Ògún.",
             "translation": "Your kingdom moves toward destruction. But there is a way—speak with Ògún.",
             "scene_description": "Ọbàtálá points toward a distant mountain where the god of war and iron, Ògún, resides.",
-            "scene_image": "ogun_mountain.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "mountain_winds.mp3",
             "options": [
                 {
@@ -83,19 +83,21 @@
             "text": "Ẹ̀mí kan ṣoṣo ló mọ bí a ṣe le wó ogún tí wọ́n fi di wa padà. O gbọdọ wá Ògún, Olùdá Irin.",
             "translation": "Only one spirit knows how to break the chains that bind us. You must seek Ògún, the Creator of Iron.",
             "scene_description": "A flash of lightning illuminates the sky as Ọbàtálá’s eyes glow with divine energy.",
-            "scene_image": "ogun_lightning.png",
+            "scene_image": "obatala_sacred_grove.png",
             "scene_audio": "thunder_clap.mp3",
             "options": [
                 {
                     "text": "Mo ti ṣetan! Mo máa lọ bá Ògún!",
                     "translation": "I am ready! I will find Ògún!",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "ogun-forge-episode-2.json",
                     "score": 10
                 },
                 {
                     "text": "Ṣé Ògún yóò fẹ́ ran wa l’ọ́wọ́?",
                     "translation": "Will Ògún be willing to help us?",
-                    "next": "next_quest",
+                    "next": false,
+                    "goto": "ogun-forge-episode-2.json",
                     "score": 8
                 }
             ],
