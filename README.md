@@ -5,7 +5,7 @@
 
 1. **Language Portal**  
    - **Description:** Frontend (WIP) and an Elixir-based API backend for a Yoruba language portal.  
-   - **Link:** [Readme](./lang-portal/backend-elixir/Readme.md)  
+   - **Link:** [Readme](./lang-portal/backend-elixir/README.md)  
    - **Deployment:** Not specified  
 
 2. **Sentence Construction**  
@@ -22,7 +22,7 @@
 
 4. **Speaking Practice**  
    - **Description:** A Gradio app for practicing Yoruba pronunciation (WIP). Yoruba support in the underlying libraries is currently limited.  
-   - **Link:** [Readme](./speaking-practice/README.md)  
+   - **Link:** [Readme](./speaking-practice/Readme.md)  
    - **Deployment:** Not specified  
 
 5. **Writing Practice**  
